@@ -26,17 +26,25 @@ export function CategoryChart({ categoryAccuracy }: CategoryChartProps) {
   return (
     <ResponsiveContainer width="100%" height={240}>
       <RadarChart data={data} margin={{ top: 8, right: 24, bottom: 8, left: 24 }}>
-        <PolarGrid />
-        <PolarAngleAxis dataKey="category" tick={{ fontSize: 11 }} />
+        <PolarGrid stroke="rgba(255,255,255,0.08)" />
+        <PolarAngleAxis dataKey="category" tick={{ fontSize: 11, fill: '#9ca3af' }} />
         <Radar
           name="Träffsäkerhet %"
           dataKey="accuracy"
-          stroke="#1d4ed8"
-          fill="#1d4ed8"
-          fillOpacity={0.25}
-          dot={{ r: 3 }}
+          stroke="#8b5cf6"
+          fill="#8b5cf6"
+          fillOpacity={0.2}
+          dot={{ r: 3, fill: '#8b5cf6' }}
         />
-        <Tooltip formatter={(v: number) => [`${v}%`, 'Träffsäkerhet']} />
+        <Tooltip
+          formatter={(v: number) => [`${v}%`, 'Träffsäkerhet']}
+          contentStyle={{
+            backgroundColor: 'rgba(15, 23, 42, 0.9)',
+            border: '1px solid rgba(255,255,255,0.1)',
+            borderRadius: '12px',
+            color: '#e5e7eb',
+          }}
+        />
       </RadarChart>
     </ResponsiveContainer>
   );

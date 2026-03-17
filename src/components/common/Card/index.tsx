@@ -23,8 +23,8 @@ export function Card({
   return (
     <div
       className={clsx(
-        'bg-white rounded-xl border border-gray-100',
-        shadow && 'shadow-sm',
+        'bg-white/5 backdrop-blur-xl rounded-2xl border border-white/10',
+        shadow && 'shadow-glass',
         paddingClasses[padding],
         className,
       )}

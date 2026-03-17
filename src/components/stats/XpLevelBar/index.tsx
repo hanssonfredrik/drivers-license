@@ -15,16 +15,16 @@ export function XpLevelBar({ totalXp, level }: XpLevelBarProps) {
   const progressPct = Math.min(100, Math.round((progressXp / rangeXp) * 100));
 
   return (
-    <div className="space-y-1.5">
+    <div className="space-y-2">
       <div className="flex items-center justify-between text-sm">
-        <span className="font-semibold text-gray-700">Nivå {level}</span>
-        <span className="text-xs text-gray-500">
+        <span className="font-bold text-gradient-gold text-lg">Nivå {level}</span>
+        <span className="text-xs text-gray-500 font-mono">
           {progressXp} / {rangeXp} XP
         </span>
       </div>
-      <div className="relative h-4 bg-gray-200 rounded-full overflow-hidden">
+      <div className="relative h-4 bg-white/5 rounded-full overflow-hidden">
         <div
-          className="h-full bg-gradient-to-r from-xp-400 to-xp-600 rounded-full transition-all duration-500"
+          className="h-full bg-gradient-to-r from-xp-600 to-xp-400 rounded-full transition-all duration-700 ease-out"
           style={{ width: `${progressPct}%` }}
           role="progressbar"
           aria-valuenow={progressXp}
@@ -32,8 +32,9 @@ export function XpLevelBar({ totalXp, level }: XpLevelBarProps) {
           aria-valuemax={rangeXp}
           aria-label={`XP framsteg: ${progressXp} av ${rangeXp}`}
         />
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-shimmer rounded-full" />
       </div>
-      <div className="flex justify-between text-xs text-gray-400">
+      <div className="flex justify-between text-xs text-gray-600">
         <span>Nivå {level}</span>
         <span>Nivå {level + 1}</span>
       </div>

@@ -14,11 +14,11 @@ interface ProgressBarProps {
 }
 
 const colorClasses: Record<ProgressBarColor, string> = {
-  brand: 'bg-brand-500',
-  success: 'bg-success-500',
-  danger: 'bg-danger-500',
-  warning: 'bg-warning-500',
-  xp: 'bg-xp-500',
+  brand: 'bg-gradient-to-r from-brand-600 to-brand-400',
+  success: 'bg-gradient-to-r from-success-600 to-success-400',
+  danger: 'bg-gradient-to-r from-danger-600 to-danger-400',
+  warning: 'bg-gradient-to-r from-warning-600 to-warning-400',
+  xp: 'bg-gradient-to-r from-xp-600 to-xp-400',
 };
 
 const sizeClasses = {
@@ -43,11 +43,11 @@ export function ProgressBar({
     <div className={clsx('w-full', className)}>
       {(showLabel || label) && (
         <div className="flex justify-between items-center mb-1.5">
-          <span className="text-xs text-gray-600">{label ?? `${Math.round(pct)}%`}</span>
-          {showLabel && !label && <span className="text-xs text-gray-400">{value}/{max}</span>}
+          <span className="text-xs text-gray-400">{label ?? `${Math.round(pct)}%`}</span>
+          {showLabel && !label && <span className="text-xs text-gray-500">{value}/{max}</span>}
         </div>
       )}
-      <div className={clsx('w-full bg-gray-200 rounded-full overflow-hidden', sizeClasses[size])}>
+      <div className={clsx('w-full bg-white/5 rounded-full overflow-hidden', sizeClasses[size])}>
         <div
           role="progressbar"
           aria-valuenow={value}

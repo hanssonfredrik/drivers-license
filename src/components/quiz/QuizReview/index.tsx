@@ -24,7 +24,7 @@ export function QuizReview({ session }: QuizReviewProps) {
   if (loading) {
     return (
       <div className="flex justify-center p-8">
-        <div className="w-6 h-6 border-3 border-brand-600 border-t-transparent rounded-full animate-spin" />
+        <div className="w-6 h-6 rounded-full border-2 border-brand-500/30 border-t-brand-400 animate-spin" />
       </div>
     );
   }
@@ -48,13 +48,13 @@ export function QuizReview({ session }: QuizReviewProps) {
               <span
                 className={clsx(
                   'flex-shrink-0 w-5 h-5 rounded-full text-xs flex items-center justify-center font-bold mt-0.5',
-                  isCorrect ? 'bg-success-100 text-success-700' : 'bg-danger-100 text-danger-700',
+                  isCorrect ? 'bg-success-500/20 text-success-400' : 'bg-danger-500/20 text-danger-400',
                 )}
               >
                 {isCorrect ? '✓' : '✗'}
               </span>
-              <p className="text-sm text-gray-800 font-medium leading-snug">
-                <span className="text-gray-400 mr-1">{idx + 1}.</span>
+              <p className="text-sm text-gray-200 font-medium leading-snug">
+                <span className="text-gray-500 mr-1">{idx + 1}.</span>
                 {q.text}
               </p>
             </div>
@@ -64,9 +64,9 @@ export function QuizReview({ session }: QuizReviewProps) {
                   key={i}
                   className={clsx(
                     'text-xs px-2 py-1 rounded flex items-center gap-1.5',
-                    i === q.correctIndex && 'bg-success-50 text-success-700 font-medium',
-                    i === answer.selectedIndex && i !== q.correctIndex && 'bg-danger-50 text-danger-700 line-through',
-                    i !== q.correctIndex && i !== answer.selectedIndex && 'text-gray-400',
+                    i === q.correctIndex && 'bg-success-500/10 text-success-400 font-medium',
+                    i === answer.selectedIndex && i !== q.correctIndex && 'bg-danger-500/10 text-danger-400 line-through',
+                    i !== q.correctIndex && i !== answer.selectedIndex && 'text-gray-600',
                   )}
                 >
                   <span className="font-mono text-xs">{OPTION_LABELS[i]}.</span>
@@ -75,7 +75,7 @@ export function QuizReview({ session }: QuizReviewProps) {
                 </div>
               ))}
             </div>
-            <div className="ml-7 text-xs text-gray-500 bg-gray-50 rounded p-2 leading-relaxed">
+            <div className="ml-7 text-xs text-gray-400 bg-white/5 rounded-lg p-2 leading-relaxed border border-white/5">
               {q.explanation}
             </div>
           </Card>

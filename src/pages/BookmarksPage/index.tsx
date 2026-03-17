@@ -10,8 +10,8 @@ import { Card } from '@/components/common/Card';
 function EmptyBookmarks() {
   return (
     <div className="flex flex-col items-center gap-4 py-16 text-center">
-      <span className="text-5xl">☆</span>
-      <h2 className="text-xl font-semibold text-gray-800">Inga bokmärken ännu</h2>
+      <span className="text-5xl">⭐</span>
+      <h2 className="text-xl font-semibold text-gray-200">Inga bokmärken ännu</h2>
       <p className="text-sm text-gray-500 max-w-xs">
         Bokmärk svåra frågor under instuderingen så hittar du dem här.
       </p>
@@ -33,15 +33,15 @@ function StudyBookmarks({ questionIds, onToggleBookmark, isBookmarked }: StudyBo
   }
 
   if (state.phase === 'error') {
-    return <div className="py-10 text-center text-red-600">{state.message}</div>;
+    return <div className="py-10 text-center text-danger-400">{state.message}</div>;
   }
 
   if (state.phase === 'complete') {
     return (
-      <Card className="text-center space-y-3">
+      <Card className="text-center space-y-3 py-6">
         <div className="text-4xl">🎉</div>
-        <h2 className="text-xl font-bold">Klar med bokmärkta frågor!</h2>
-        <p className="text-gray-600">
+        <h2 className="text-xl font-bold text-white">Klar med bokmärkta frågor!</h2>
+        <p className="text-gray-400">
           {state.summary.correct} av {state.summary.total} rätt
         </p>
         <Button variant="primary" onClick={() => window.location.reload()}>
@@ -99,7 +99,7 @@ export default function BookmarksPage() {
   if (ids.length === 0) {
     return (
       <div className="max-w-xl mx-auto px-4 py-6">
-        <h1 className="text-2xl font-bold text-gray-900 mb-4">Bokmärken</h1>
+        <h1 className="text-2xl font-bold text-white mb-4">Bokmärken</h1>
         <EmptyBookmarks />
       </div>
     );
@@ -108,14 +108,14 @@ export default function BookmarksPage() {
   return (
     <div className="max-w-xl mx-auto px-4 py-6 space-y-4">
       <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold text-gray-900">Bokmärken</h1>
-        <span className="text-sm text-gray-500">{ids.length} frågor</span>
+        <h1 className="text-2xl font-bold text-white">Bokmärken</h1>
+        <span className="text-sm text-gray-500 font-mono">{ids.length} frågor</span>
       </div>
 
       {!studying ? (
         <div className="space-y-3">
           <Card>
-            <p className="text-sm text-gray-700 mb-3">
+            <p className="text-sm text-gray-300 mb-3">
               Du har bokmärkt {ids.length} frågor. Studera dem för att bli bättre på det du haft svårt för.
             </p>
             <Button variant="primary" fullWidth onClick={() => setStudying(true)}>
@@ -127,7 +127,7 @@ export default function BookmarksPage() {
         <>
           <button
             onClick={() => setStudying(false)}
-            className="text-sm text-brand-600 hover:text-brand-800"
+            className="text-sm text-brand-400 hover:text-brand-300 transition-colors"
             type="button"
           >
             ← Tillbaka till bokmärken

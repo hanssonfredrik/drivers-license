@@ -88,13 +88,13 @@ export default function SignsPage() {
         {view !== 'categories' && (
           <button
             onClick={view === 'detail' ? handleBackToGrid : handleBackToCategories}
-            className="text-brand-600 hover:text-brand-800 text-sm font-medium"
+            className="text-brand-400 hover:text-brand-300 text-sm font-medium transition-colors"
             type="button"
           >
             ← Tillbaka
           </button>
         )}
-        <h1 className="text-2xl font-bold text-gray-900">
+        <h1 className="text-2xl font-bold text-white">
           {view === 'categories' && 'Vägmärken'}
           {view === 'grid' && category && SIGN_CATEGORY_LABELS[category as SignCategoryId]}
           {view === 'detail' && selectedSign?.name}

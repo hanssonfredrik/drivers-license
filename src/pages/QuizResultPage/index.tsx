@@ -26,7 +26,7 @@ export default function QuizResultPage() {
   if (!session) {
     return (
       <div className="max-w-xl mx-auto px-4 py-6 text-center">
-        <p className="text-gray-500 mb-4">Quiz-resultat hittades inte.</p>
+        <p className="text-gray-400 mb-4">Quiz-resultat hittades inte.</p>
         <Link to="/">
           <Button variant="secondary">Hem</Button>
         </Link>
@@ -37,22 +37,26 @@ export default function QuizResultPage() {
   return (
     <div className="max-w-xl mx-auto px-4 py-6">
       <div className="flex items-center justify-between mb-6">
-        <Link to="/" className="text-sm text-brand-600 hover:underline">
+        <Link to="/" className="text-sm text-brand-400 hover:text-brand-300 transition-colors">
           ← Hem
         </Link>
         <div className="flex gap-2">
           <button
             onClick={() => setView('result')}
-            className={`text-sm px-3 py-1 rounded-full font-medium transition-colors ${
-              view === 'result' ? 'bg-brand-600 text-white' : 'text-gray-500 hover:bg-gray-100'
+            className={`text-sm px-3 py-1 rounded-full font-medium transition-all ${
+              view === 'result'
+                ? 'bg-brand-600/20 text-brand-300 border border-brand-500/30'
+                : 'text-gray-500 hover:bg-white/5'
             }`}
           >
             Resultat
           </button>
           <button
             onClick={() => setView('review')}
-            className={`text-sm px-3 py-1 rounded-full font-medium transition-colors ${
-              view === 'review' ? 'bg-brand-600 text-white' : 'text-gray-500 hover:bg-gray-100'
+            className={`text-sm px-3 py-1 rounded-full font-medium transition-all ${
+              view === 'review'
+                ? 'bg-brand-600/20 text-brand-300 border border-brand-500/30'
+                : 'text-gray-500 hover:bg-white/5'
             }`}
           >
             Granska

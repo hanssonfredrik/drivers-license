@@ -25,19 +25,31 @@ export function QuizHistoryChart({ history }: QuizHistoryChartProps) {
   return (
     <ResponsiveContainer width="100%" height={200}>
       <BarChart data={data} margin={{ top: 8, right: 8, bottom: 0, left: -16 }}>
-        <CartesianGrid strokeDasharray="3 3" vertical={false} />
-        <XAxis dataKey="label" tick={{ fontSize: 10 }} />
-        <YAxis domain={[0, 65]} tick={{ fontSize: 10 }} />
+        <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="rgba(255,255,255,0.05)" />
+        <XAxis dataKey="label" tick={{ fontSize: 10, fill: '#6b7280' }} />
+        <YAxis domain={[0, 65]} tick={{ fontSize: 10, fill: '#6b7280' }} />
         <Tooltip
           formatter={(v: number) => [`${v} av 65`, 'Poäng']}
           labelFormatter={(l: string) => `Quiz ${l}`}
+          contentStyle={{
+            backgroundColor: 'rgba(15, 23, 42, 0.9)',
+            border: '1px solid rgba(255,255,255,0.1)',
+            borderRadius: '12px',
+            color: '#e5e7eb',
+          }}
         />
-        <ReferenceLine y={52} stroke="#22c55e" strokeDasharray="4 4" label={{ value: 'Godkänt', position: 'right', fontSize: 10, fill: '#22c55e' }} />
+        <ReferenceLine y={52} stroke="#10b981" strokeDasharray="4 4" label={{ value: 'Godkänt', position: 'right', fontSize: 10, fill: '#10b981' }} />
         <Bar
           dataKey="score"
-          radius={[3, 3, 0, 0]}
-          fill="#1d4ed8"
+          radius={[4, 4, 0, 0]}
+          fill="url(#barGradient)"
         />
+        <defs>
+          <linearGradient id="barGradient" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stopColor="#8b5cf6" />
+            <stop offset="100%" stopColor="#06b6d4" />
+          </linearGradient>
+        </defs>
       </BarChart>
     </ResponsiveContainer>
   );

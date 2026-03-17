@@ -17,15 +17,15 @@ function BadgeCard({ badge, earned }: BadgeCardProps) {
       className={clsx(
         'flex flex-col items-center gap-1 p-3 rounded-xl border text-center transition-all',
         earned
-          ? 'bg-brand-50 border-brand-200 shadow-sm'
-          : 'bg-gray-50 border-gray-200 opacity-50',
+          ? 'bg-brand-500/10 border-brand-500/30 shadow-glow-sm'
+          : 'bg-white/[0.02] border-white/5 opacity-40 grayscale',
       )}
       title={earned ? 'Upplåst' : badge.description}
     >
       <span className="text-2xl">{badge.icon}</span>
-      <span className="text-xs font-medium text-gray-700 leading-tight">{badge.name}</span>
+      <span className="text-xs font-medium text-gray-300 leading-tight">{badge.name}</span>
       {earned && (
-        <span className="text-[10px] text-brand-600 font-semibold">✓ Upplåst</span>
+        <span className="text-[10px] text-brand-400 font-semibold">✓ Upplåst</span>
       )}
     </div>
   );

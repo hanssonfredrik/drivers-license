@@ -20,20 +20,20 @@ const CATEGORIES: CategoryId[] = [
 function CategorySelector() {
   return (
     <div className="max-w-xl mx-auto px-4 py-6">
-      <Link to="/" className="text-sm text-brand-600 hover:underline mb-4 inline-block">
+      <Link to="/" className="text-sm text-brand-400 hover:text-brand-300 transition-colors mb-4 inline-block">
         ← Hem
       </Link>
-      <h1 className="text-xl font-bold text-gray-900 mb-2">Välj ämne</h1>
-      <p className="text-sm text-gray-500 mb-6">Studera frågor inom ett specifikt ämnesområde</p>
+      <h1 className="text-xl font-bold text-white mb-2">Välj ämne</h1>
+      <p className="text-sm text-gray-400 mb-6">Studera frågor inom ett specifikt ämnesområde</p>
       <div className="flex flex-col gap-2">
         {CATEGORIES.map((id) => (
           <Link key={id} to={`/study/${id}`}>
             <Card
               shadow={false}
-              className="flex items-center gap-3 hover:border-brand-300 hover:bg-brand-50 transition-all cursor-pointer"
+              className="flex items-center gap-3 hover:border-brand-500/30 hover:bg-brand-500/10 transition-all cursor-pointer"
             >
-              <span className="text-sm font-medium text-gray-800">{CATEGORY_LABELS[id]}</span>
-              <span className="ml-auto text-gray-400">→</span>
+              <span className="text-sm font-medium text-gray-200">{CATEGORY_LABELS[id]}</span>
+              <span className="ml-auto text-gray-500">→</span>
             </Card>
           </Link>
         ))}
@@ -58,7 +58,7 @@ export default function StudyPage() {
   if (state.phase === 'loading') {
     return (
       <div className="flex justify-center items-center p-12">
-        <div className="w-8 h-8 border-4 border-brand-600 border-t-transparent rounded-full animate-spin" />
+        <div className="w-8 h-8 rounded-full border-2 border-brand-500/30 border-t-brand-400 animate-spin" />
       </div>
     );
   }
@@ -66,7 +66,7 @@ export default function StudyPage() {
   if (state.phase === 'error') {
     return (
       <div className="max-w-xl mx-auto px-4 py-6">
-        <p className="text-danger-600">{state.message}</p>
+        <p className="text-danger-400">{state.message}</p>
         <Button onClick={() => { void navigate(-1); }} variant="secondary" className="mt-4">
           Gå tillbaka
         </Button>
@@ -78,11 +78,11 @@ export default function StudyPage() {
     const pct = Math.round((state.summary.correct / state.summary.total) * 100);
     return (
       <div className="max-w-xl mx-auto px-4 py-6">
-        <Card className="text-center">
-          <div className="text-5xl mb-3">{pct >= 80 ? '🎉' : '📚'}</div>
-          <h2 className="text-xl font-bold text-gray-900 mb-1">Instudering klar!</h2>
-          <p className="text-gray-500 mb-4">{CATEGORY_LABELS[categoryId]}</p>
-          <div className="text-3xl font-bold text-brand-700 mb-1">{pct}%</div>
+        <Card className="text-center py-8">
+          <div className="text-5xl mb-4">{pct >= 80 ? '🎉' : '💪'}</div>
+          <h2 className="text-xl font-bold text-white mb-1">Instudering klar!</h2>
+          <p className="text-gray-400 mb-4">{CATEGORY_LABELS[categoryId]}</p>
+          <div className="text-4xl font-bold text-gradient mb-1">{pct}%</div>
           <p className="text-sm text-gray-500 mb-6">
             {state.summary.correct} rätt av {state.summary.total}
           </p>
@@ -105,7 +105,7 @@ export default function StudyPage() {
   return (
     <div className="max-w-xl mx-auto px-4 py-6">
       <div className="flex items-center justify-between mb-4">
-        <Link to="/study" className="text-sm text-brand-600 hover:underline">
+        <Link to="/study" className="text-sm text-brand-400 hover:text-brand-300 transition-colors">
           ← Ämnen
         </Link>
         <span className="text-sm font-medium text-gray-500">{CATEGORY_LABELS[categoryId]}</span>

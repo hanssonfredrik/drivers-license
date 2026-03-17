@@ -25,8 +25,8 @@ export default function QuizPage() {
   if (state.phase === 'loading') {
     return (
       <div className="flex flex-col items-center justify-center p-12 gap-4">
-        <div className="w-8 h-8 border-4 border-brand-600 border-t-transparent rounded-full animate-spin" />
-        <p className="text-sm text-gray-500">Förbereder quiz...</p>
+        <div className="w-10 h-10 rounded-full border-2 border-brand-500/30 border-t-brand-400 animate-spin" />
+        <p className="text-sm text-gray-400">Förbereder quiz...</p>
       </div>
     );
   }
@@ -35,7 +35,7 @@ export default function QuizPage() {
     return (
       <div className="max-w-xl mx-auto px-4 py-6">
         <Card>
-          <p className="text-danger-600 mb-4">{state.message}</p>
+          <p className="text-danger-400 mb-4">{state.message}</p>
           <Button onClick={() => { void navigate('/'); }} variant="secondary">
             Gå till startsidan
           </Button>
@@ -47,8 +47,8 @@ export default function QuizPage() {
   if (state.phase === 'submitting' || state.phase === 'complete') {
     return (
       <div className="flex flex-col items-center justify-center p-12 gap-4">
-        <div className="w-8 h-8 border-4 border-brand-600 border-t-transparent rounded-full animate-spin" />
-        <p className="text-sm text-gray-500">Räknar poäng...</p>
+        <div className="w-10 h-10 rounded-full border-2 border-brand-500/30 border-t-brand-400 animate-spin" />
+        <p className="text-sm text-gray-400">Räknar poäng...</p>
       </div>
     );
   }
@@ -131,10 +131,10 @@ export default function QuizPage() {
 
       {/* Confirm quit dialog */}
       {showConfirmQuit && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
-          <Card className="w-full max-w-sm text-center">
-            <p className="text-base font-semibold text-gray-900 mb-2">Avsluta quiz?</p>
-            <p className="text-sm text-gray-500 mb-6">
+        <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 z-50">
+          <Card className="w-full max-w-sm text-center py-6">
+            <p className="text-base font-semibold text-white mb-2">Avsluta quiz?</p>
+            <p className="text-sm text-gray-400 mb-6">
               Dina svar sparas och du kan se resultatet. Du kan inte återuppta detta quiz.
             </p>
             <div className="flex gap-3">

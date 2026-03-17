@@ -8,7 +8,7 @@ export interface QuizSession {
   completedAt: string | null;
   status: QuizStatus;
   answers: QuizAnswer[];
-  totalQuestions: 65;
+  totalQuestions: number;
   score: number | null;
   passed: boolean | null;
   categoryScores: Record<CategoryId, { correct: number; total: number }> | null;

@@ -21,15 +21,15 @@ export function SignCategoryList({ categories, onSelect }: SignCategoryListProps
         <button
           key={cat.id}
           onClick={() => onSelect(cat.id)}
-          className="flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-brand-400 hover:bg-brand-50 transition-all text-left"
+          className="flex items-center gap-3 p-4 bg-white/5 border border-white/10 rounded-xl hover:border-brand-500/30 hover:bg-brand-500/10 transition-all duration-200 text-left group"
           type="button"
         >
           <span className="text-2xl">{CATEGORY_ICONS[cat.id] ?? '🚦'}</span>
           <div className="flex-1 min-w-0">
-            <p className="font-semibold text-gray-800 capitalize">{cat.label}</p>
+            <p className="font-semibold text-gray-200 capitalize group-hover:text-white transition-colors">{cat.label}</p>
             <p className="text-xs text-gray-500">{cat.count} skyltar</p>
           </div>
-          <span className="text-gray-400">›</span>
+          <span className="text-gray-600 group-hover:text-gray-300 transition-colors">›</span>
         </button>
       ))}
     </div>

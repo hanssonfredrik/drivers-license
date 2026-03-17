@@ -25,15 +25,15 @@ export default function StatsPage() {
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-6 space-y-6">
-      <h1 className="text-2xl font-bold text-gray-900">Statistik</h1>
+      <h1 className="text-2xl font-bold text-white">Statistik</h1>
 
       {/* XP & Level */}
       {state && (
         <Card>
           <div className="space-y-4">
             <div className="flex items-center justify-between">
-              <h2 className="text-base font-semibold text-gray-800">Nivå & XP</h2>
-              <span className="text-sm text-gray-500">{state.totalXp} XP totalt</span>
+              <h2 className="text-base font-semibold text-gray-200">Nivå & XP</h2>
+              <span className="text-sm text-gray-500 font-mono">{state.totalXp} XP</span>
             </div>
             <XpLevelBar totalXp={state.totalXp} level={state.level} />
           </div>
@@ -43,7 +43,7 @@ export default function StatsPage() {
       {/* Streak */}
       {progress && (
         <Card>
-          <h2 className="text-base font-semibold text-gray-800 mb-3">Streak</h2>
+          <h2 className="text-base font-semibold text-gray-200 mb-3">Streak</h2>
           <StreakDisplay
             currentStreak={progress.currentStreak}
             longestStreak={progress.longestStreak}
@@ -55,11 +55,11 @@ export default function StatsPage() {
       {progress && (
         <div className="grid grid-cols-2 gap-3">
           <Card className="text-center">
-            <div className="text-3xl font-bold text-brand-600">{progress.totalAnswered}</div>
+            <div className="text-3xl font-bold text-gradient">{progress.totalAnswered}</div>
             <div className="text-xs text-gray-500 mt-1">Svar totalt</div>
           </Card>
           <Card className="text-center">
-            <div className="text-3xl font-bold text-success-600">{passedCount}</div>
+            <div className="text-3xl font-bold text-success-400">{passedCount}</div>
             <div className="text-xs text-gray-500 mt-1">Godkända quiz</div>
           </Card>
         </div>
@@ -68,20 +68,20 @@ export default function StatsPage() {
       {/* Category radar */}
       {progress && (
         <Card>
-          <h2 className="text-base font-semibold text-gray-800 mb-3">Träffsäkerhet per kategori</h2>
+          <h2 className="text-base font-semibold text-gray-200 mb-3">Träffsäkerhet per kategori</h2>
           <CategoryChart categoryAccuracy={progress.categoryAccuracy} />
         </Card>
       )}
 
       {/* Quiz history bar chart */}
       <Card>
-        <h2 className="text-base font-semibold text-gray-800 mb-3">Quiz-historia</h2>
+        <h2 className="text-base font-semibold text-gray-200 mb-3">Quiz-historia</h2>
         <QuizHistoryChart history={quizHistory} />
       </Card>
 
       {/* Badges */}
       <Card>
-        <h2 className="text-base font-semibold text-gray-800 mb-3">Märken</h2>
+        <h2 className="text-base font-semibold text-gray-200 mb-3">Märken</h2>
         <BadgeGrid badges={badges} earnedBadgeIds={earnedBadgeIds} />
       </Card>
     </div>

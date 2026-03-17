@@ -29,7 +29,7 @@ export function QuestionCard({
       {/* Header row */}
       <div className="flex items-start justify-between gap-2">
         {questionNumber != null && totalQuestions != null && (
-          <span className="text-sm text-gray-500 font-medium flex-shrink-0">
+          <span className="text-sm text-gray-500 font-medium flex-shrink-0 font-mono">
             {questionNumber} / {totalQuestions}
           </span>
         )}
@@ -38,8 +38,10 @@ export function QuestionCard({
             onClick={onToggleBookmark}
             aria-label={isBookmarked ? 'Ta bort bokmärke' : 'Bokmärk fråga'}
             className={clsx(
-              'flex-shrink-0 p-1 rounded-full transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500',
-              isBookmarked ? 'text-yellow-500 hover:text-yellow-600' : 'text-gray-400 hover:text-gray-600',
+              'flex-shrink-0 p-1.5 rounded-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500/50',
+              isBookmarked
+                ? 'text-xp-400 hover:text-xp-500 bg-xp-400/10'
+                : 'text-gray-500 hover:text-gray-300 hover:bg-white/5',
             )}
           >
             {isBookmarked ? '★' : '☆'}
@@ -51,7 +53,7 @@ export function QuestionCard({
       {question.imageId && <QuestionImage imageId={question.imageId} alt={question.text} />}
 
       {/* Question text */}
-      <p className="text-base md:text-lg font-medium text-gray-900 leading-relaxed">
+      <p className="text-base md:text-lg font-medium text-white leading-relaxed">
         {question.text}
       </p>
 

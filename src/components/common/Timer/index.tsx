@@ -42,15 +42,19 @@ export function Timer({ initialMs, onTimeout, paused = false, className }: Timer
   return (
     <div
       className={clsx(
-        'flex items-center gap-1.5 font-mono text-sm font-bold tabular-nums px-3 py-1.5 rounded-lg',
-        isCritical ? 'bg-danger-50 text-danger-700 animate-pulse' : isWarning ? 'bg-warning-50 text-warning-600' : 'bg-gray-100 text-gray-700',
+        'flex items-center gap-1.5 font-mono text-sm font-bold tabular-nums px-3 py-1.5 rounded-xl border',
+        isCritical
+          ? 'bg-danger-50 border-danger-500/30 text-danger-400 animate-pulse shadow-glow-danger'
+          : isWarning
+            ? 'bg-warning-50 border-warning-500/30 text-warning-400'
+            : 'bg-white/5 border-white/10 text-gray-300',
         className,
       )}
       role="timer"
       aria-label={`Tid kvar: ${minutes} minuter ${seconds} sekunder`}
     >
       <span>{String(minutes).padStart(2, '0')}</span>
-      <span>:</span>
+      <span className="opacity-50">:</span>
       <span>{String(seconds).padStart(2, '0')}</span>
     </div>
   );

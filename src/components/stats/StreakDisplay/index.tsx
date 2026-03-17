@@ -15,17 +15,17 @@ export function StreakDisplay({ currentStreak, longestStreak }: StreakDisplayPro
         className={clsx(
           'flex-1 rounded-xl p-4 text-center border',
           currentStreak >= 7
-            ? 'bg-orange-50 border-orange-200'
-            : 'bg-gray-50 border-gray-200',
+            ? 'bg-warning-500/10 border-warning-500/30'
+            : 'bg-white/5 border-white/10',
         )}
       >
         <div className="text-3xl mb-1">{fire}</div>
-        <div className="text-2xl font-bold text-gray-800">{currentStreak}</div>
+        <div className="text-2xl font-bold text-white">{currentStreak}</div>
         <div className="text-xs text-gray-500 mt-0.5">Dagars svit</div>
       </div>
-      <div className="flex-1 rounded-xl p-4 text-center bg-gray-50 border border-gray-200">
+      <div className="flex-1 rounded-xl p-4 text-center bg-white/5 border border-white/10">
         <div className="text-3xl mb-1">🏆</div>
-        <div className="text-2xl font-bold text-gray-800">{longestStreak}</div>
+        <div className="text-2xl font-bold text-white">{longestStreak}</div>
         <div className="text-xs text-gray-500 mt-0.5">Längsta svit</div>
       </div>
     </div>
