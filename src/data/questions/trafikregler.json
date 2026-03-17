@@ -1,0 +1,192 @@
+[
+  {
+    "id": "tr-001",
+    "category": "trafikregler",
+    "text": "Vad innebär en heldragen mittlinje på vägen?",
+    "options": [
+      "Du får köra om om det är säkert",
+      "Du får inte köra om",
+      "Du måste bromsa",
+      "Du får köra om kortare fordon"
+    ],
+    "correctIndex": 1,
+    "explanation": "En heldragen mittlinje innebär körförbud. Du får inte korsa eller köra på linjen för att köra om.",
+    "imageId": null
+  },
+  {
+    "id": "tr-002",
+    "category": "trafikregler",
+    "text": "Vad gäller vid en väjningsplikt-skylt (vikväg)?",
+    "options": [
+      "Du ska stanna helt",
+      "Du har fri företräde",
+      "Du ska väja för trafik på den korsande vägen",
+      "Du kör framför cyklister men efter bilar"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vid vikväg (väjningsplikt) ska du väja för all trafik på den korsande eller anslutande vägen.",
+    "imageId": null
+  },
+  {
+    "id": "tr-003",
+    "category": "trafikregler",
+    "text": "Vilken är den allmänna hastighetsgränsen på landsväg utan skyltning?",
+    "options": ["50 km/h", "70 km/h", "80 km/h", "90 km/h"],
+    "correctIndex": 1,
+    "explanation": "Den allmänna hastighetsgränsen utanför tättbebyggt område (landsväg) är 70 km/h om inget annat skyltas. Observera: sedan 2008 är grundregeln 70 km/h om inget annat anges.",
+    "imageId": null
+  },
+  {
+    "id": "tr-004",
+    "category": "trafikregler",
+    "text": "Hur nära ett övergångsställe får du parkera?",
+    "options": ["5 meter", "10 meter", "15 meter", "20 meter"],
+    "correctIndex": 1,
+    "explanation": "Du får inte parkera inom 10 meter framför ett övergångsställe eller cykelöverfart.",
+    "imageId": null
+  },
+  {
+    "id": "tr-005",
+    "category": "trafikregler",
+    "text": "Vad gäller högerregeln i en vägkorsning utan vägmärken?",
+    "options": [
+      "Den som kör fortast har företräde",
+      "Den som kommer från höger har företräde",
+      "Den som kommer från vänster har företräde",
+      "Tung trafik har alltid företräde"
+    ],
+    "correctIndex": 1,
+    "explanation": "Högerregeln innebär att fordon som kommer från höger har företräde när två fordon möts i en korsning utan vägmärken.",
+    "imageId": null
+  },
+  {
+    "id": "tr-006",
+    "category": "trafikregler",
+    "text": "Vilket märke indikerar att du kör på en huvudled?",
+    "options": [
+      "Triangel med röd kant",
+      "Rund skylt med rött kryss",
+      "Gul romb (diamantform)",
+      "Blå cirkel"
+    ],
+    "correctIndex": 2,
+    "explanation": "Den gula romben (diamantformen) indikerar att du befinner dig på en huvudled och har företräde i kommande korsningar.",
+    "imageId": "D2"
+  },
+  {
+    "id": "tr-007",
+    "category": "trafikregler",
+    "text": "Vad gäller vid omkörning av cyklist utanför tättbebyggt område?",
+    "options": [
+      "Du behöver bara lämna 0,5 meters sidoavstånd",
+      "Du ska lämna betryggande sidoavstånd (minst 1,5 meter rekommenderas)",
+      "Du behöver inte ta extra hänsyn",
+      "Du får bara köra om om cyklisten vinkar dig förbi"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vid omkörning av cyklister ska du lämna ett betryggande sidoavstånd. Trafikverket rekommenderar minst 1,5 meter.",
+    "imageId": null
+  },
+  {
+    "id": "tr-008",
+    "category": "trafikregler",
+    "text": "Vad innebär ett rött ljus i en trafiksignal?",
+    "options": [
+      "Sänk hastigheten",
+      "Väj för korsande trafik",
+      "Stanna och vänta",
+      "Kör försiktigt"
+    ],
+    "correctIndex": 2,
+    "explanation": "Rött trafikljus innebär stopp – du ska stanna vid stopplinjen och vänta tills ljuset blir grönt.",
+    "imageId": null
+  },
+  {
+    "id": "tr-009",
+    "category": "trafikregler",
+    "text": "Var på vägen ska du normalt köra?",
+    "options": [
+      "Så nära mitten som möjligt",
+      "Så långt till vänster som möjligt",
+      "Så långt till höger som praktiskt möjligt",
+      "I mitten av ditt körfält"
+    ],
+    "correctIndex": 2,
+    "explanation": "Enligt trafikreglerna ska fordon köras så långt till höger som det är praktiskt möjligt och lämpligt.",
+    "imageId": null
+  },
+  {
+    "id": "tr-010",
+    "category": "trafikregler",
+    "text": "Vad gäller för blinkers vid filbyte på motorväg?",
+    "options": [
+      "Det är valfritt",
+      "Blinkers ska alltid användas",
+      "Blinkers används bara nattetid",
+      "Det räcker med att titta i spegeln"
+    ],
+    "correctIndex": 1,
+    "explanation": "Blinkers ska alltid användas vid filbyte, körning in och ut från körfält samt alla svängningar.",
+    "imageId": null
+  },
+  {
+    "id": "tr-011",
+    "category": "trafikregler",
+    "text": "Vilken är den lägsta tillåtna mönsterdjupet på sommardäck?",
+    "options": ["1 mm", "1,6 mm", "2 mm", "3 mm"],
+    "correctIndex": 1,
+    "explanation": "Det lagstadgade minimumet för mönsterdjup på sommardäck är 1,6 mm. Det rekommenderas dock att byta däck vid 3 mm för säkerhetens skull.",
+    "imageId": null
+  },
+  {
+    "id": "tr-012",
+    "category": "trafikregler",
+    "text": "Vad innebär gula markeringar längs vägkanten?",
+    "options": [
+      "Parkeringsförbud",
+      "Stannande förbjudet",
+      "Farlig vägkant",
+      "Busshållplats"
+    ],
+    "correctIndex": 0,
+    "explanation": "Gula kantlinjsmarkeringar längs vägkanten indikerar parkeringsförbud.",
+    "imageId": null
+  },
+  {
+    "id": "tr-013",
+    "category": "trafikregler",
+    "text": "Hur långt framför ett övergångsställe ska du stanna vid rött ljus?",
+    "options": [
+      "Precis vid kanten av övergångsstället",
+      "Vid stopplinjen framför signalen",
+      "2 meter före övergångsstället",
+      "Var som helst innan övergångsstället"
+    ],
+    "correctIndex": 1,
+    "explanation": "Du ska stanna vid stopplinjen som är markerad framför trafiksignalen.",
+    "imageId": null
+  },
+  {
+    "id": "tr-014",
+    "category": "trafikregler",
+    "text": "Vad gäller vid körning i rondell?",
+    "options": [
+      "Trafik i rondellen har alltid företräde",
+      "Trafik som ska in i rondellen har alltid företräde",
+      "Högerregeln gäller fullt ut",
+      "Tung trafik har företräde"
+    ],
+    "correctIndex": 0,
+    "explanation": "I rondeller har trafik som redan befinner sig i rondellen företräde framför trafik som är på väg in, om inget annat skyltas.",
+    "imageId": null
+  },
+  {
+    "id": "tr-015",
+    "category": "trafikregler",
+    "text": "Vilken hastighet gäller normalt i tättbebyggt område?",
+    "options": ["30 km/h", "40 km/h", "50 km/h", "60 km/h"],
+    "correctIndex": 2,
+    "explanation": "Den allmänna hastighetsgränsen i tättbebyggt område är 50 km/h om inget annat skyltas.",
+    "imageId": null
+  }
+]

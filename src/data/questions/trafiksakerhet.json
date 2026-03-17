@@ -1,0 +1,207 @@
+[
+  {
+    "id": "ts-001",
+    "category": "trafiksakerhet",
+    "text": "Vad är bromssträckan beroende av?",
+    "options": [
+      "Enbart fordonets vikt",
+      "Hastigheten, väggreppet och bromssystemets skick",
+      "Enbart fordonets ålder",
+      "Enbart förarens reaktionstid"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bromssträckan påverkas av fordonets hastighet (kvadratiskt samband), väggreppet (underlag och däckkvalitet) samt bromssystemets skick.",
+    "imageId": null
+  },
+  {
+    "id": "ts-002",
+    "category": "trafiksakerhet",
+    "text": "Vad är den genomsnittliga reaktionstiden för en nykter och utvilad förare?",
+    "options": ["0,5 sekunder", "1 sekund", "1,5 sekunder", "2 sekunder"],
+    "correctIndex": 1,
+    "explanation": "Den genomsnittliga reaktionstiden för en nykter, utvilad förare är cirka 1 sekund. Trötthet, alkohol och distraktioner kan fördubbla denna tid.",
+    "imageId": null
+  },
+  {
+    "id": "ts-003",
+    "category": "trafiksakerhet",
+    "text": "Vad händer med bromssträckan om hastigheten fördubblas?",
+    "options": [
+      "Den fördubblas",
+      "Den tredubblas",
+      "Den fyrdubblas",
+      "Den ökar med 50%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Bromssträckan ökar med kvadraten på hastigheten – om hastigheten fördubblas, fyrdubblas bromssträckan.",
+    "imageId": null
+  },
+  {
+    "id": "ts-004",
+    "category": "trafiksakerhet",
+    "text": "Vad är ett 'döda vinkeln' på en lastbil?",
+    "options": [
+      "En blindgata bakom lastbilen",
+      "Områden runt fordonet som föraren inte kan se i speglar",
+      "Platsen direkt framför lastbilens front",
+      "Lastbilens bromsavstånd"
+    ],
+    "correctIndex": 1,
+    "explanation": "Döda vinkeln är de blinda zoner runt ett fordon som inte syns i speglarna. Lastbilar har extra stora döda vinklar, speciellt på höger sida.",
+    "imageId": null
+  },
+  {
+    "id": "ts-005",
+    "category": "trafiksakerhet",
+    "text": "Hur påverkar alkohol körförmågan?",
+    "options": [
+      "Förbättrar reaktionsförmågan",
+      "Ingen effekt vid låga koncentrationer",
+      "Försämrar omdöme, reaktionstid och koordination",
+      "Påverkar bara vid 0,5‰ eller mer"
+    ],
+    "correctIndex": 2,
+    "explanation": "Alkohol försämrar omdöme, reaktionstid, koordination och synfält redan vid låga koncentrationer. I Sverige är gränsen 0,2‰.",
+    "imageId": null
+  },
+  {
+    "id": "ts-006",
+    "category": "trafiksakerhet",
+    "text": "Vad ska du göra om du känner dig trött under en längre körning?",
+    "options": [
+      "Öppna fönstret och lyssna på hög musik",
+      "Dricka kaffe och fortsätta körningen",
+      "Stanna och vila",
+      "Köra fortare för att komma fram snabbare"
+    ],
+    "correctIndex": 2,
+    "explanation": "Det enda effektiva sättet att motverka trötthet är att stanna och sova/vila. Kaffe och frisk luft är tillfälliga lösningar som inte ersätter sömn.",
+    "imageId": null
+  },
+  {
+    "id": "ts-007",
+    "category": "trafiksakerhet",
+    "text": "Vad innebär 2-sekundersregeln?",
+    "options": [
+      "Du ska köra 2 sekunder per 10 km/h",
+      "Det ska ta minst 2 sekunder att passera samma punkt som fordonet framför",
+      "Du ska pausa 2 sekunder vid korsningar",
+      "Blinkers ska blinka i 2 sekunder innan filbyte"
+    ],
+    "correctIndex": 1,
+    "explanation": "2-sekundersregeln innebär att det ska ta minst 2 sekunder från det att bilen framför passerar en fast punkt till dess att du passerar samma punkt. Det ger ett lämpligt säkerhetsavstånd.",
+    "imageId": null
+  },
+  {
+    "id": "ts-008",
+    "category": "trafiksakerhet",
+    "text": "Vilken typ av olycka är vanligast i Sverige?",
+    "options": [
+      "Frontalkollisioner",
+      "Singelolyckor (körning av vägen)",
+      "Korsningsolyckor",
+      "Kollisioner i tunnel"
+    ],
+    "correctIndex": 1,
+    "explanation": "Singelolyckor (utförkörningar) är den vanligaste olyckstypen och en av de dödligaste. De orsakas ofta av trötthet, hastighet eller alkohol.",
+    "imageId": null
+  },
+  {
+    "id": "ts-009",
+    "category": "trafiksakerhet",
+    "text": "Vad är syfte med 'nollvisionen' i Sverige?",
+    "options": [
+      "Noll parkeringsböter",
+      "Noll döda och allvarligt skadade i trafiken",
+      "Noll utsläpp från fordon",
+      "Noll fortkörningsböter"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nollvisionen är Sveriges trafiksäkerhetsmål från 1997: ingen ska dödas eller skadas allvarligt i trafiken. Det är ett etiskt mål om att inget liv är ett acceptabelt pris för mobilitet.",
+    "imageId": null
+  },
+  {
+    "id": "ts-010",
+    "category": "trafiksakerhet",
+    "text": "Vad bör du göra om ett fordon bakom dig kör väldigt nära (skrämselbeteende)?",
+    "options": [
+      "Bromsa kraftigt för att ge en signal",
+      "Accelerera för att öka avståndet",
+      "Sakta ner gradvis och låt fordonet köra förbi",
+      "Byta fil in framför fordonet"
+    ],
+    "correctIndex": 2,
+    "explanation": "Om en förare skrämer dig bakifrån, sakta ner gradvis och skapa utrymme för fordonet att passera. Undvik onödiga bromsningar som kan orsaka kollision.",
+    "imageId": null
+  },
+  {
+    "id": "ts-011",
+    "category": "trafiksakerhet",
+    "text": "Hur påverkar regn bromssträckan?",
+    "options": [
+      "Det påverkar inte bromssträckan",
+      "Det förkortar bromssträckan",
+      "Det fördubblar bromssträckan",
+      "Det kan fördubbla eller mer bromssträckan"
+    ],
+    "correctIndex": 3,
+    "explanation": "Regn minskar friktionen avsevärt. Bromssträckan kan öka med 50-100% vid regn och ännu mer vid aquaplaning.",
+    "imageId": null
+  },
+  {
+    "id": "ts-012",
+    "category": "trafiksakerhet",
+    "text": "Vad är aquaplaning?",
+    "options": [
+      "En typ av bränsle",
+      "När däcken glider ovanpå ett vattenskikt och förlorar kontakt med vägen",
+      "En bromsteknik",
+      "Körning i dimma"
+    ],
+    "correctIndex": 1,
+    "explanation": "Aquaplaning uppstår när vatten bygger upp ett skikt under däcken, vilket orsakar att fordonet glider ovanpå vattnet och tappar styrning. Minska hastigheten i stående eller strömmande vatten.",
+    "imageId": null
+  },
+  {
+    "id": "ts-013",
+    "category": "trafiksakerhet",
+    "text": "Vilken är den farligaste hastighetsskillnaden i trafiken?",
+    "options": [
+      "30 km/h",
+      "50 km/h",
+      "Det finns ingen specifik gräns",
+      "Hastighetsskillnad är aldrig farlig"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hastighetsskillnader är alltid potentiellt farliga. Forskning visar att kollisioner vid 30 km/h kan vara dödliga för oskyddade trafikanter.",
+    "imageId": null
+  },
+  {
+    "id": "ts-014",
+    "category": "trafiksakerhet",
+    "text": "Vad innebär defensiv körning?",
+    "options": [
+      "Köra så sakta som möjligt",
+      "Alltid ha höger sida fri",
+      "Förutse risker och anpassa körningen för att undvika olyckor",
+      "Hålla konstant hastighet"
+    ],
+    "correctIndex": 2,
+    "explanation": "Defensiv körning innebär att aktivt förutse risker, hålla säkerhetsavstånd, anpassa hastigheten och vara beredd på andras misstag.",
+    "imageId": null
+  },
+  {
+    "id": "ts-015",
+    "category": "trafiksakerhet",
+    "text": "Vad ökar risken mest vid mobilanvändning under körning?",
+    "options": [
+      "Batteriet tar slut",
+      "Reaktionstiden ökar med upp till 4 gånger",
+      "Navigeringen fungerar sämre",
+      "Musiken störs"
+    ],
+    "correctIndex": 1,
+    "explanation": "Forskning visar att handhållen mobilanvändning under körning kan öka reaktionstiden med upp till 4 gånger – värre än rattfylleri.",
+    "imageId": null
+  }
+]

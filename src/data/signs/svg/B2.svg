@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Inverted yield triangle -->
+  <polygon points="50,92 95,12 5,12" fill="white" stroke="#E30000" stroke-width="6"/>
+</svg>

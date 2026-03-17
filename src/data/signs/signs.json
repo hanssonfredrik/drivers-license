@@ -1,0 +1,203 @@
+[
+  {
+    "id": "A1",
+    "name": "Farlig kurva",
+    "signCategory": "varning",
+    "description": "Varnar för farlig kurva eller ett antal farliga kurvor.",
+    "detailedDescription": "Vid en pil åt höger är kurvan till höger, vid en pil åt vänster är kurvan till vänster.",
+    "relatedRule": "Sänk hastigheten och håll dig till höger i kurvan."
+  },
+  {
+    "id": "A2",
+    "name": "Farliga kurvor",
+    "signCategory": "varning",
+    "description": "Varnar för ett antal farliga kurvor efter varandra.",
+    "detailedDescription": "Pil visar riktningen på den första kurvan. Sträckan med farliga kurvor kan anges på tilläggstavla.",
+    "relatedRule": "Förbered för upprepade kurvor, sänk hastigheten i god tid."
+  },
+  {
+    "id": "A3",
+    "name": "Brant utförslutning",
+    "signCategory": "varning",
+    "description": "Varnar för kraftig nedförsbacke.",
+    "detailedDescription": "Siffror på tilläggstavla anger backlutningens storlek i procent.",
+    "relatedRule": "Använd motorbromsning och undvik att bromsa kraftigt under lång sträcka."
+  },
+  {
+    "id": "A4",
+    "name": "Brant uppförsbacke",
+    "signCategory": "varning",
+    "description": "Varnar för kraftig uppförsbacke.",
+    "detailedDescription": "Siffror anger lutningen i procent. Välj ett lägre växelläge i god tid.",
+    "relatedRule": "Välj lägre växel i god tid och anpassa hastigheten."
+  },
+  {
+    "id": "A5",
+    "name": "Smal väg",
+    "signCategory": "varning",
+    "description": "Varnar för vägsträcka som är smalare än den normala körbanan.",
+    "detailedDescription": "Sträckan kan anges på tilläggstavla. Var beredd att backa in i en mötesplats.",
+    "relatedRule": "Sänk hastigheten och var beredd att möta motgående trafik."
+  },
+  {
+    "id": "A10",
+    "name": "Vägkorsning",
+    "signCategory": "varning",
+    "description": "Varnar för en korsning med annan väg.",
+    "detailedDescription": "Utformningen av skylten varierar beroende på om de korsande vägarna har väjningsplikt eller ej.",
+    "relatedRule": "Sänk hastigheten och iaktta försiktighet vid korsningen."
+  },
+  {
+    "id": "A20",
+    "name": "Järnvägskorsning med bommar",
+    "signCategory": "varning",
+    "description": "Varnar för en bevakad järnvägskorsning utrustad med bommar eller halvbommar.",
+    "detailedDescription": "Signalen regleras automatiskt. Stanna när ljuset blinkar eller bommar sänks.",
+    "relatedRule": "Obligatorisk stopp vid rött ljus. Vänta tills bommar höjts helt."
+  },
+  {
+    "id": "A21",
+    "name": "Järnvägskorsning utan bommar",
+    "signCategory": "varning",
+    "description": "Varnar för obevakad järnvägskorsning.",
+    "detailedDescription": "Inga bommar eller ljussignaler – föraren ansvarar helt för att spåret är fritt.",
+    "relatedRule": "Stanna, titta åt båda håll, kör inte tills spåren är fria."
+  },
+  {
+    "id": "A25",
+    "name": "Vägarbete",
+    "signCategory": "varning",
+    "description": "Varnar för vägarbete.",
+    "detailedDescription": "Tilläggstavla kan ange sträcka eller datum. Trafikvakter eller vägmärken anger hur du ska köra.",
+    "relatedRule": "Sänk hastigheten och följ anvisningar från vägarbetare eller tillfälliga märken."
+  },
+  {
+    "id": "A30",
+    "name": "Slipprig väg",
+    "signCategory": "varning",
+    "description": "Varnar för väg med ovanligt halt väglag.",
+    "detailedDescription": "Kan bero på is, snö, lösa stenar, olja eller liknande.",
+    "relatedRule": "Sänk hastigheten avsevärt och öka bromsavståndet kraftigt."
+  },
+  {
+    "id": "B1",
+    "name": "Stopplikt",
+    "signCategory": "forbud",
+    "description": "Föraren är skyldig att stanna fordonet.",
+    "detailedDescription": "Stanna bakom stopplinje eller, om sådan saknas, i korsningens utmärkning. All trafik inom korsningen har företräde.",
+    "relatedRule": "Obligatorisk fullständig stopp. Ge fri väg åt all korsande trafik."
+  },
+  {
+    "id": "B2",
+    "name": "Väjningsplikt",
+    "signCategory": "forbud",
+    "description": "Föraren är skyldig att lämna fri väg åt fordon på den korsande vägen.",
+    "detailedDescription": "Stanna om det behövs. Väjningsplikten gäller även mot cyklister och gångtrafikanter i vissa fall.",
+    "relatedRule": "Ge fri väg – stanna om nödvändigt."
+  },
+  {
+    "id": "C1",
+    "name": "Förbud mot trafik med fordon",
+    "signCategory": "forbud",
+    "description": "Trafik med fordon är förbjuden i den riktning skylten gäller.",
+    "detailedDescription": "Gäller i den riktning skylten är vänd. Fordon som hör till platsen kan undantas.",
+    "relatedRule": "Motortrafik förbjuden i denna riktning."
+  },
+  {
+    "id": "C6",
+    "name": "Genomfartstrafik förbjuden",
+    "signCategory": "forbud",
+    "description": "Förbjuder genomfartstrafik med personbil, buss m.m.",
+    "detailedDescription": "Gäller hela det påmärkta området. Lokaltrafik och utryckningsfordon undantas.",
+    "relatedRule": "Endast lokaltrafik tillåten."
+  },
+  {
+    "id": "C31",
+    "name": "Hastighetsbegränsning",
+    "signCategory": "forbud",
+    "description": "Anger högsta tillåtna hastighet i kilometer per timme.",
+    "detailedDescription": "Gäller från märket och framåt tills annat anges. Vägförhållandena kan kräva lägre hastighet.",
+    "relatedRule": "Håll max angiven hastighet. Lägre hastighet om väglaget kräver det."
+  },
+  {
+    "id": "C40",
+    "name": "Parkeringsförbud",
+    "signCategory": "forbud",
+    "description": "Parkering är förbjuden.",
+    "detailedDescription": "Gäller från märket. Ej stopplikt, men parkering är inte tillåten.",
+    "relatedRule": "Fordon får inte parkeras. Kortvarig stoppning för av- och påstigning kan vara tillåten."
+  },
+  {
+    "id": "D1",
+    "name": "Påbjuden körriktning (rakt fram)",
+    "signCategory": "pabud",
+    "description": "Föraren är skyldig att följa angiven körriktning.",
+    "detailedDescription": "Gäller för körfältets riktning. Om ingen pil ensam anges – kör rakt fram.",
+    "relatedRule": "Sväng inte – kör rakt fram enligt pilen."
+  },
+  {
+    "id": "D2",
+    "name": "Påbjuden körriktning (höger)",
+    "signCategory": "pabud",
+    "description": "Föraren är skyldig att svänga höger.",
+    "detailedDescription": "Gäller för körfältets riktning. Svängning till höger är obligatorisk.",
+    "relatedRule": "Sväng till höger."
+  },
+  {
+    "id": "D3",
+    "name": "Påbjuden körriktning (vänster)",
+    "signCategory": "pabud",
+    "description": "Föraren är skyldig att svänga vänster.",
+    "detailedDescription": "Gäller för körfältets riktning. Svängning till vänster är obligatorisk.",
+    "relatedRule": "Sväng till vänster."
+  },
+  {
+    "id": "D5",
+    "name": "Påbjuden cykelbana",
+    "signCategory": "pabud",
+    "description": "Anger att cykelbana börjar.",
+    "detailedDescription": "Cyklister är skyldiga att använda cykelbanan. Motortrafik är förbjuden.",
+    "relatedRule": "Cyklister ska använda cykelbanan. Motortrafik förbjuden."
+  },
+  {
+    "id": "E11",
+    "name": "Parkeringsplats",
+    "signCategory": "information",
+    "description": "Anger en parkeringsplats.",
+    "detailedDescription": "Parkering tillåten enligt eventuella villkor på tilläggstavla (tid, avgift m.m.).",
+    "relatedRule": "Parkering tillåten enligt angivna villkor."
+  },
+  {
+    "id": "E20",
+    "name": "Motorväg",
+    "signCategory": "information",
+    "description": "Anger att motorväg börjar.",
+    "detailedDescription": "Motortrafikregler gäller. Minsta tillåtna hastighet 40 km/h. Cyklar och mopeder förbjudna.",
+    "relatedRule": "Motortrafikregler gäller. Minsta hastighet 40 km/h."
+  },
+  {
+    "id": "E21",
+    "name": "Motortrafikled",
+    "signCategory": "information",
+    "description": "Anger att motortrafikled börjar.",
+    "detailedDescription": "Motorfordon tillåtna. Cyklar och mopeder klass I förbjudna.",
+    "relatedRule": "Motorfordon tillåtna. Cyklar och mopeder klass I förbjudna."
+  },
+  {
+    "id": "G1",
+    "name": "Riksvägsnummer",
+    "signCategory": "lokaliseringsmarke",
+    "description": "Anger riksvägsnummer.",
+    "detailedDescription": "Vit siffra på röd bakgrund för riksvägar.",
+    "relatedRule": null
+  },
+  {
+    "id": "G2",
+    "name": "Europavägsnummer",
+    "signCategory": "lokaliseringsmarke",
+    "description": "Anger europavägnummer (E-väg).",
+    "detailedDescription": "Vit siffra på grön bakgrund.",
+    "relatedRule": null
+  }
+]
+

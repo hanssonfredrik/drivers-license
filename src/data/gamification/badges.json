@@ -1,0 +1,91 @@
+[
+  {
+    "id": "first-answer",
+    "name": "Första steget",
+    "description": "Besvara din första fråga",
+    "icon": "🌱",
+    "condition": { "type": "total-answers", "count": 1 }
+  },
+  {
+    "id": "answers-10",
+    "name": "Nybörjare",
+    "description": "Besvara 10 frågor totalt",
+    "icon": "📝",
+    "condition": { "type": "total-answers", "count": 10 }
+  },
+  {
+    "id": "answers-100",
+    "name": "Flitig student",
+    "description": "Besvara 100 frågor totalt",
+    "icon": "📚",
+    "condition": { "type": "total-answers", "count": 100 }
+  },
+  {
+    "id": "answers-500",
+    "name": "Teoriexpert",
+    "description": "Besvara 500 frågor totalt",
+    "icon": "🏆",
+    "condition": { "type": "total-answers", "count": 500 }
+  },
+  {
+    "id": "first-quiz",
+    "name": "Provtagare",
+    "description": "Slutför ditt första quiz",
+    "icon": "✅",
+    "condition": { "type": "quiz-passed", "count": 1 }
+  },
+  {
+    "id": "quiz-passed-3",
+    "name": "Konsekvent",
+    "description": "Klara 3 quiz med godkänt resultat",
+    "icon": "🎯",
+    "condition": { "type": "quiz-passed", "count": 3 }
+  },
+  {
+    "id": "streak-3",
+    "name": "3-dagarsmärket",
+    "description": "Studera 3 dagar i rad",
+    "icon": "🔥",
+    "condition": { "type": "streak", "days": 3 }
+  },
+  {
+    "id": "streak-7",
+    "name": "Veckostreak",
+    "description": "Studera 7 dagar i rad",
+    "icon": "🔥🔥",
+    "condition": { "type": "streak", "days": 7 }
+  },
+  {
+    "id": "streak-30",
+    "name": "Månadsstreak",
+    "description": "Studera 30 dagar i rad",
+    "icon": "🔥🔥🔥",
+    "condition": { "type": "streak", "days": 30 }
+  },
+  {
+    "id": "level-5",
+    "name": "Nivå 5",
+    "description": "Nå nivå 5",
+    "icon": "⭐",
+    "condition": { "type": "level-reached", "level": 5 }
+  },
+  {
+    "id": "level-10",
+    "name": "Mästare",
+    "description": "Nå nivå 10",
+    "icon": "🌟",
+    "condition": { "type": "level-reached", "level": 10 }
+  },
+  {
+    "id": "category-mastery-tr",
+    "name": "Trafikregelgurun",
+    "description": "Nå 80% rätt i Trafikregler med minst 50 svar",
+    "icon": "📋",
+    "condition": {
+      "type": "category-mastery",
+      "category": "trafikregler",
+      "accuracy": 0.8,
+      "minAnswers": 50
+    }
+  }
+]

@@ -1,0 +1,207 @@
+[
+  {
+    "id": "pe-001",
+    "category": "personliga",
+    "text": "Vad är promillegränsen för rattfylleri i Sverige?",
+    "options": ["0,1‰", "0,2‰", "0,5‰", "0,8‰"],
+    "correctIndex": 1,
+    "explanation": "I Sverige är den lagliga gränsen för rattfylleri 0,2‰ blodalkohol. Grovt rattfylleri gäller vid 1,0‰ eller mer.",
+    "imageId": null
+  },
+  {
+    "id": "pe-002",
+    "category": "personliga",
+    "text": "Vilka läkemedel kan påverka körförmågan?",
+    "options": [
+      "Enbart receptbelagda läkemedel",
+      "Enbart sömnmedel",
+      "Många läkemedel inkl. antihistaminer, sömnmedel, smärtstillande och ångestdämpande",
+      "Inga läkemedel påverkar körförmågan"
+    ],
+    "correctIndex": 2,
+    "explanation": "Många läkemedel kan försämra körförmågan, inklusive antihistaminer (t.ex. mot allergi), sömnmedel, starka smärtstillande, lugnande medel och vissa blodtrycksläkemedel. Läs alltid bipacksedeln.",
+    "imageId": null
+  },
+  {
+    "id": "pe-003",
+    "category": "personliga",
+    "text": "Hur länge efter cannabisrökning kan körförmågan vara nedsatt?",
+    "options": [
+      "1-2 timmar",
+      "3-4 timmar",
+      "Upp till 24 timmar eller mer",
+      "Cannabis påverkar inte körförmågan"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cannabis kan ge nedsatt körförmåga i upp till 24 timmar efter bruk, och hos frekventa användare längre. THC försämrar djupseende, reaktionstid och spårhållning.",
+    "imageId": null
+  },
+  {
+    "id": "pe-004",
+    "category": "personliga",
+    "text": "Vad bör du göra om du tar läkemedel som kan påverka körförmågan?",
+    "options": [
+      "Ta läkemedlet som vanligt och kör försiktigt",
+      "Rådgör med läkare eller apotekare om det är säkert att köra",
+      "Vänta 30 minuter och kör sedan",
+      "Det är bara narkotika som påverkar körning"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rådgör alltid med läkare eller apotekare om ett läkemedel kan påverka körförmågan. Många läkemedel har varningssymbol på förpackningen (gul triangel).",
+    "imageId": null
+  },
+  {
+    "id": "pe-005",
+    "category": "personliga",
+    "text": "Hur påverkar stress och ilska körförmågan?",
+    "options": [
+      "Ingen påverkan",
+      "Ger bättre fokus",
+      "Kan leda till risktagning, aggressiv körning och sämre omdöme",
+      "Stressar bara musklerna"
+    ],
+    "correctIndex": 2,
+    "explanation": "Stress och ilska kan göra att förare tar risker de normalt inte skulle ta, kör aggressivare, och har sämre omdöme. Starka känslor påverkar informationsbearbetning i hjärnan.",
+    "imageId": null
+  },
+  {
+    "id": "pe-006",
+    "category": "personliga",
+    "text": "Vad innebär grovt rattfylleri i Sverige?",
+    "options": [
+      "0,2‰ blodalkohol",
+      "0,5‰ blodalkohol",
+      "1,0‰ blodalkohol eller mer",
+      "Körning utan körkort"
+    ],
+    "correctIndex": 2,
+    "explanation": "Grovt rattfylleri gäller vid 1,0‰ i blodet (eller 0,5 mg/L utandningsluft) eller om körförmågan är märkbart påverkad vid lägre nivåer.",
+    "imageId": null
+  },
+  {
+    "id": "pe-007",
+    "category": "personliga",
+    "text": "Vilket tillstånd utgör störst risk för att somna bakom ratten?",
+    "options": [
+      "Lätt trötthet",
+      "Sömnbrist, monoton körning och sömnapné",
+      "Ätande under körning",
+      "Användning av GPS"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sömnbrist är vanligaste orsaken. Monoton körning (t.ex. motorväg nattetid) och obehandlad sömnapné (stör sömnen) ökar risken dramatiskt. Microsömn kan inträffa utan förvarning.",
+    "imageId": null
+  },
+  {
+    "id": "pe-008",
+    "category": "personliga",
+    "text": "Vilken skyldighet har du som förare om du ser ditt körkortstillstånd hotas av hälsoskäl?",
+    "options": [
+      "Ingen skyldighet",
+      "Informera Transportstyrelsen eller läkare",
+      "Bara informera familjen",
+      "Sluta köra i 2 veckor"
+    ],
+    "correctIndex": 1,
+    "explanation": "Om ett hälsotillstånd (t.ex. epilepsi, allvarlig synnedsättning, hjärtsjukdom) påverkar körförmågan ska du informera Transportstyrelsen och inte köra tills tillståndet är utrett.",
+    "imageId": null
+  },
+  {
+    "id": "pe-009",
+    "category": "personliga",
+    "text": "Hur länge efter en person slutat dricka alkohol kan det ta innan blodalkoholen sjunkit under 0,2‰?",
+    "options": [
+      "1 timme per enhet",
+      "Det varierar, men ungefär 1 ‰ per timme bryts ned",
+      "Snabbt om man dricker vatten",
+      "10 minuter per enhet"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kroppen bryter ned alkohol med ungefär 0,1-0,15 ‰ per timme. Det varierar med individ, kön och vikt. Kaffe, vatten och motion påskyndar inte processen.",
+    "imageId": null
+  },
+  {
+    "id": "pe-010",
+    "category": "personliga",
+    "text": "Vilket ansvar har passagerare i ett fordon?",
+    "options": [
+      "Inget",
+      "Enbart använda bilbälte",
+      "Använda bilbälte och hjälpa till att inte distrahera föraren",
+      "Bara passagerare framtill"
+    ],
+    "correctIndex": 2,
+    "explanation": "Alla passagerare är skyldiga att använda bilbälte. Passagerare bör också undvika att distrahera föraren med höga samtal, plötsliga rörelser eller liknande.",
+    "imageId": null
+  },
+  {
+    "id": "pe-011",
+    "category": "personliga",
+    "text": "Vad är körkortstillståndet och när behövs det?",
+    "options": [
+      "Det är samma som körkortet",
+      "Det är ett tillstånd som krävs för att ta körkortslektioner",
+      "Det är en licens för yrkestransport",
+      "Det behövs bara för motorcykel"
+    ],
+    "correctIndex": 1,
+    "explanation": "Körkortstillståndet (körkortsbevis) utfärdas av Transportstyrelsen och krävs innan man påbörjar övningskörning med handledare eller tar körlektioner.",
+    "imageId": null
+  },
+  {
+    "id": "pe-012",
+    "category": "personliga",
+    "text": "Vad händer vid körning med mobiltelefon i handen?",
+    "options": [
+      "Det är tillåtet vid låg hastighet",
+      "Böter och körkortsanteckning om det orsakat risk",
+      "Enbart varning",
+      "Det är inte reglerat"
+    ],
+    "correctIndex": 1,
+    "explanation": "Det är förbjudet att hålla i mobiltelefon vid körning i Sverige. Brott mot förbudet ger böter och kan leda till körkortsanteckning om körningen medfört trarikfara.",
+    "imageId": null
+  },
+  {
+    "id": "pe-013",
+    "category": "personliga",
+    "text": "Vad kan hända med körkortet om du begår trafikbrott?",
+    "options": [
+      "Ingenting",
+      "Körkortet kan återkallas av Transportstyrelsen",
+      "Du får bara böter",
+      "Körkortet ogiltigförklaras automatiskt"
+    ],
+    "correctIndex": 1,
+    "explanation": "Transportstyrelsen kan återkalla körkortet vid rattfylleri, grov fortkörning, körkortsbrott och liknande. Det kan också bli spärrtid innan du kan ta nytt körkort.",
+    "imageId": null
+  },
+  {
+    "id": "pe-014",
+    "category": "personliga",
+    "text": "Varför är ung ålder en riskfaktor i trafiken?",
+    "options": [
+      "Unga har sämre syn",
+      "Unga tar fler risker, har sämre erfarenhet och är mer benägna att påverkas av grupptryck",
+      "Unga kör för sakta",
+      "Ålder är inte en riskfaktor"
+    ],
+    "correctIndex": 1,
+    "explanation": "Unga förare (16-24 år) är överrepresenterade i trafikolyckor. Orsaker inkluderar riskbenägenhet, grupptryck, begränsad erfarenhet och hjärnan som inte är fullt utvecklad förrän runt 25 år.",
+    "imageId": null
+  },
+  {
+    "id": "pe-015",
+    "category": "personliga",
+    "text": "Vad innebär 'nybörjarkörskörkort' (villkorsbehörighet B)?",
+    "options": [
+      "En extra kurs man kan ta frivilligt",
+      "En form av körkort för yngre med extra restriktioner",
+      "Körkortet är inte giltigt utomlands",
+      "Det gäller bara för att köra moped"
+    ],
+    "correctIndex": 1,
+    "explanation": "Villkorsbehörighet B (ibland kallat 'nybörjarkörkort') innebär att föraren under de första 2 åren inte får ha 0,2‰ alkohol i blodet (vanliga gränsen) – alkoholgränsen är fortfarande 0‰ i praktiken för nybörjare i många situationer. Nya regler kan ändra exakt hur detta formuleras.",
+    "imageId": null
+  }
+]

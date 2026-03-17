@@ -1,0 +1,212 @@
+[
+  {
+    "id": "fk-001",
+    "category": "fordonskannedom",
+    "text": "Vad kontrollerar du med oljemätarstickan?",
+    "options": [
+      "Kylvätskenivån",
+      "Motoroljans nivå och kvalitet",
+      "Bränslenivån",
+      "Batteriets laddning"
+    ],
+    "correctIndex": 1,
+    "explanation": "Oljemätarstickan (oljestickan) används för att kontrollera motoroljans nivå. Du drar ut stickan, torkar av den, sätter in den igen och kontrollerar nivån.",
+    "imageId": null
+  },
+  {
+    "id": "fk-002",
+    "category": "fordonskannedom",
+    "text": "Vad betyder en röd oljelampa på instrumentpanelen?",
+    "options": [
+      "Det är dags att byta olja snart",
+      "Oljenivån är låg, oljetrycket är för lågt — stanna omedelbart",
+      "Motor behöver service",
+      "Lampan har fel"
+    ],
+    "correctIndex": 1,
+    "explanation": "En röd oljelampa betyder kritiskt lågt oljetryck. Stanna omedelbart och stäng av motorn – att köra vidare kan orsaka allvarliga motorskador.",
+    "imageId": null
+  },
+  {
+    "id": "fk-003",
+    "category": "fordonskannedom",
+    "text": "Vad är syftet med ABS (Anti-lock Braking System)?",
+    "options": [
+      "Hindra bilen från att rulla bakåt",
+      "Förhindra att hjulen låser sig vid hård inbromsning",
+      "Öka bromskraften",
+      "Minska bränsleförbrukningen"
+    ],
+    "correctIndex": 1,
+    "explanation": "ABS förhindrar att hjulen låser sig vid kraftig bromsning, vilket gör att föraren behåller styrförmågan. Det förkortar inte alltid bromssträckan men ger bättre kontroll.",
+    "imageId": null
+  },
+  {
+    "id": "fk-004",
+    "category": "fordonskannedom",
+    "text": "Hur kontrollerar du lufttrycket i däcken?",
+    "options": [
+      "Visuellt – de ska se 'runda' ut",
+      "Med ett tryckmätare på ventilen",
+      "Kör lite och känna om det vibrerar",
+      "Fråga en verkstad varje år"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lufttrycket kontrolleras med en tryckmätare (manometer) på däckventilen, helst när däcken är kalla. Rätt lufttryck hittar du i fordonets manual eller på stickers i dörrkarm.",
+    "imageId": null
+  },
+  {
+    "id": "fk-005",
+    "category": "fordonskannedom",
+    "text": "Vad ska du kontrollera i bromssystemet regelbundet?",
+    "options": [
+      "Bromsvätskans nivå och bromsklossarnas tjocklek",
+      "Enbart bromsljusen",
+      "Handbromsens kabelspänning",
+      "Bromspedalen position"
+    ],
+    "correctIndex": 0,
+    "explanation": "Du ska regelbundet kontrollera bromsvätskans nivå och kvalitet samt bromsklossarnas tjocklek (slitage). Tunna bromsklossar kan minska bromseffekten farligt.",
+    "imageId": null
+  },
+  {
+    "id": "fk-006",
+    "category": "fordonskannedom",
+    "text": "Vad gör en katalysator i ett fordon?",
+    "options": [
+      "Ökar motoreffekten",
+      "Minskar bränsleförbrukningen",
+      "Omvandlar skadliga avgaser till mindre skadliga ämnen",
+      "Renar motoroljan"
+    ],
+    "correctIndex": 2,
+    "explanation": "Katalysatorn omvandlar skadliga avgaser (kolmonoxid, kolväten, kväveoxider) till koldioxid, vatten och kväve. Den fungerar bäst när motorn är varm.",
+    "imageId": null
+  },
+  {
+    "id": "fk-007",
+    "category": "fordonskannedom",
+    "text": "Vad är skillnaden mellan sommar- och vinterdäck?",
+    "options": [
+      "Enbart färgen",
+      "Vinterdäck har mjukare gummiblandning och djupare profil för bättre grepp i kyla och snö",
+      "Vinterdäck är bara marknadsföring",
+      "Sommardäck har mer markkontakt"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vinterdäck är gjorda av mjukare gummiblandning som behåller elasticiteten i kyla (under +7°C). De har dessutom djupare spår och speciell profil för bättre grepp i snö och is.",
+    "imageId": null
+  },
+  {
+    "id": "fk-008",
+    "category": "fordonskannedom",
+    "text": "Vad händer om du kör på slanka vinterdäck (dubbdäck) sommar?",
+    "options": [
+      "Inget negativt",
+      "Sämre väggrepp, längre bromssträcka och ökad bränsleförbrukning",
+      "Bättre väggrepp",
+      "Fordonet är olagligt"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dubbdäck på torr sommaragata ger sämre grepp, längre bromssträcka och mer slitage. Dubbdäck är dessutom förbjudna om de skadar vägbanan.",
+    "imageId": null
+  },
+  {
+    "id": "fk-009",
+    "category": "fordonskannedom",
+    "text": "Vad är syftet med kylsystemet i en bil?",
+    "options": [
+      "Kyla kupéns luftkonditionering",
+      "Reglera motortemperaturen och förhindra överhettning",
+      "Kyla bromssystemet",
+      "Kyla batteriet"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kylsystemet reglerar motortemperaturen och för bort överskottsvärme från förbränningsprocessen via kylvätska och kylare.",
+    "imageId": null
+  },
+  {
+    "id": "fk-010",
+    "category": "fordonskannedom",
+    "text": "Vilken är den korrekta sittposition bakom ratten?",
+    "options": [
+      "Sätet så långt bak som möjligt för komfort",
+      "Kan peka rakt fram med armbågen på ratten och ha böjda armar vid körning",
+      "Kan räcka pedalerna med sträckta ben",
+      "Stolen nästan upprätt"
+    ],
+    "correctIndex": 1,
+    "explanation": "Korrekt sittposition: böjda armar vid ratten (ungefär 20-30 cm avstånd), knäna lite böjda vid pedalerna, ryggen mot ryggstödet, och huvudstödet bakom huvudet.",
+    "imageId": null
+  },
+  {
+    "id": "fk-011",
+    "category": "fordonskannedom",
+    "text": "Vilken komponent i bilen omvandlar rörelseenergi till el vid inbromsning?",
+    "options": [
+      "Generatorn",
+      "Returbromsning / regenerativ broms (i hybrider och elbilar)",
+      "Katalysatorn",
+      "Startmotorn"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hybridbilar och elbilar använder regenerativ bromsning, där elmotorn fungerar som generator vid inbromsning och laddar upp batteriet.",
+    "imageId": null
+  },
+  {
+    "id": "fk-012",
+    "category": "fordonskannedom",
+    "text": "Vad indikerar en gul motorlampa (Check Engine)?",
+    "options": [
+      "Omedelbar nödsituation",
+      "Fel har detekterats i motor- eller avgassystemet, besök verkstad",
+      "Tid för oljebyte",
+      "Lampan har gått sönder"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gul motorlampa indikerar att ett fel registrerats i motorns styrsystem (OBD). Det kräver verkstadsbesök för felsökning, men är inte nödvändigtvis en akut nödsituation.",
+    "imageId": null
+  },
+  {
+    "id": "fk-013",
+    "category": "fordonskannedom",
+    "text": "Hur bör du belasta ett fordon för bäst stabilititet?",
+    "options": [
+      "Allt gods framtill",
+      "Allt gods baktill",
+      "Gods fördelad jämnt och lågt i fordonet",
+      "Det spelar ingen roll var godset placeras"
+    ],
+    "correctIndex": 2,
+    "explanation": "Gods ska fördelas jämnt, placeras lågt och säkras ordentligt. Högt placerat gods eller för tung last baktill kan destabilisera fordonet.",
+    "imageId": null
+  },
+  {
+    "id": "fk-014",
+    "category": "fordonskannedom",
+    "text": "Vad är syftet med farthållaren (tempomat)?",
+    "options": [
+      "Öka motoreffekten",
+      "Hålla en inställd hastighet automatiskt",
+      "Bromsa automatiskt",
+      "Reglera styrservon"
+    ],
+    "correctIndex": 1,
+    "explanation": "Farthållaren håller en förinställd hastighet utan att föraren behöver hålla ned gaspedalen. Föraren behåller fullt ansvar och kan alltid överta kontrollen.",
+    "imageId": null
+  },
+  {
+    "id": "fk-015",
+    "category": "fordonskannedom",
+    "text": "Hur länge ska du värma upp en modern bensinmotor vintertid?",
+    "options": [
+      "10-15 minuter på tomgång",
+      "5 minuter",
+      "Kort stillastående uppvärmning, sedan köra varsamt tills motorn är varm",
+      "Ingen uppvärmning behövs"
+    ],
+    "correctIndex": 2,
+    "explanation": "Moderna motorer behöver inte lång tomgångsvärming. En kort start då värmning på 30-60 sekunder, sedan köra varsamt med låg motorbelastning tills motorn når arbetstemperatur, är optimalt.",
+    "imageId": null
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "mi-001",
+    "category": "miljo",
+    "text": "Vad är det primära sättet att minska avgasutsläpp vid körning?",
+    "options": [
+      "Köra fortare",
+      "Köra sparsamt (eco-driving) med jämn hastighet och undvika onödig acceleration",
+      "Använda luftkonditionering",
+      "Byta däck oftare"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sparsam körning (eco-driving) – jämn hastighet, tidig uppväxling, förutseende körning – minskar bränsleförbrukning och avgasutsläpp med upp till 25%.",
+    "imageId": null
+  },
+  {
+    "id": "mi-002",
+    "category": "miljo",
+    "text": "Hur påverkar rätt däcktryck miljön?",
+    "options": [
+      "Ingen skillnad",
+      "Lägre tryck minskar utsläppen",
+      "Rätt tryck sänker bränsleförbrukning och CO2-utsläpp",
+      "Högt tryck minskar utsläppen"
+    ],
+    "correctIndex": 2,
+    "explanation": "Rätt däcktryck minskar rullmotståndet, vilket leder till lägre bränsleförbrukning och lägre CO2-utsläpp. Underdäck ökar rullmotståndet med upp till 10-20%.",
+    "imageId": null
+  },
+  {
+    "id": "mi-003",
+    "category": "miljo",
+    "text": "Vad är CO2 och varför är det problematiskt i trafiken?",
+    "options": [
+      "Kolmonoxid – orsakar omedelbar förgiftning",
+      "Koldioxid – bidrar till växthuseffekten och klimatförändringar",
+      "En typ av olja",
+      "En avgaskatalysator"
+    ],
+    "correctIndex": 1,
+    "explanation": "CO2 (koldioxid) är en växthusgas som bildas vid förbränning av fossila bränslen. Det bidrar till global uppvärmning och klimatförändringar.",
+    "imageId": null
+  },
+  {
+    "id": "mi-004",
+    "category": "miljo",
+    "text": "Vilken körning är mest bränsleeffektiv?",
+    "options": [
+      "Hög hastighet med konstant gaspådraget",
+      "Sakta och försiktigt i alla situationer",
+      "Förutseende körning med tidig uppväxling och undvika onödig bromsning",
+      "Frekventa accelerationer och bromsningar"
+    ],
+    "correctIndex": 2,
+    "explanation": "Förutseende körning – se framåt, rulla ut till stoppsignaler, växla tidigt – minimerar bränsleförbrukning. Hårda accelerationer och inbromsningar är ineffektiva.",
+    "imageId": null
+  },
+  {
+    "id": "mi-005",
+    "category": "miljo",
+    "text": "Vad är fördelen med att köra elbil ur miljösynpunkt?",
+    "options": [
+      "De har inga utsläpp alls",
+      "De har inga direkta avgasutsläpp vid körning och kan ladda från förnybar energi",
+      "De är billigare att tillverka",
+      "De har längre räckvidd"
+    ],
+    "correctIndex": 1,
+    "explanation": "Elbilar saknar direkta avgasutsläpp. Om elen produceras från förnybara källor blir den totala klimatpåverkan mycket låg. Tillverkning av batterier har dock en miljöpåverkan.",
+    "imageId": null
+  },
+  {
+    "id": "mi-006",
+    "category": "miljo",
+    "text": "Varför är det bra att undvika tomgångskörning?",
+    "options": [
+      "Motorn slits mer vid tomgång",
+      "Det sparar bränsle och minskar onödiga utsläpp",
+      "Bränslepumpen slits av tomgång",
+      "Det ger ingen skillnad"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tomgångskörning bränner bränsle utan att fordonet förflyttar sig, vilket är ineffektivt och orsakar onödiga utsläpp. Många moderna bilar stänger av motorn automatiskt vid tomgång (start-stopp).",
+    "imageId": null
+  },
+  {
+    "id": "mi-007",
+    "category": "miljo",
+    "text": "Vad kallas det när kväveoxider (NOx) och kolväten i avgaser reagerar med solljus?",
+    "options": [
+      "Surt regn",
+      "Fotokemisk smog",
+      "Ozonhål",
+      "Partikeldimma"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fotokemisk smog bildas när avgaser (kväveoxider och kolväten) reagerar med solljus. Det skapar marknära ozon som irriterar luftvägarna.",
+    "imageId": null
+  },
+  {
+    "id": "mi-008",
+    "category": "miljo",
+    "text": "Hur kan du som bilförare bidra till grönare transport?",
+    "options": [
+      "Köra snabbare för att minska restiden",
+      "Samåka, planera körväg och välja fordon med lägre utsläpp",
+      "Alltid använda bilpool",
+      "Köpa nytt fordon varje år"
+    ],
+    "correctIndex": 1,
+    "explanation": "Samåkning, ruttplanering, undvika rusningstrafik, välja lågutsläppsfordon, och tillämpa eco-driving är alla sätt att minska trafikens miljöpåverkan.",
+    "imageId": null
+  },
+  {
+    "id": "mi-009",
+    "category": "miljo",
+    "text": "Vad är partikelfilter (DPF) i en dieselbil?",
+    "options": [
+      "Ett filter som renar bränslet",
+      "En komponent som fångar upp sotpartiklar i avgaserna",
+      "En kylvätskefilter",
+      "Ett oljereningsfilter"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dieselpartikelfilter (DPF) fångar upp skadliga sotpartiklar i avgaserna. Det regenererar (bränner bort soten) automatiskt vid körning på motorväg.",
+    "imageId": null
+  },
+  {
+    "id": "mi-010",
+    "category": "miljo",
+    "text": "Vilken Euro-klass anger lägst avgasutsläpp?",
+    "options": ["Euro 3", "Euro 4", "Euro 5", "Euro 6"],
+    "correctIndex": 3,
+    "explanation": "Euro 6 är den strängaste avgasklassen (gäller sedan 2014 för personbilar) med lägst tillåtna utsläpp av NOx, HC, CO och partiklar.",
+    "imageId": null
+  },
+  {
+    "id": "mi-011",
+    "category": "miljo",
+    "text": "Hur påverkar fordonets vikt bränsleförbrukning och utsläpp?",
+    "options": [
+      "Vikten påverkar inte bränsleförbrukning",
+      "Tyngre fordon förbrukar generellt mer bränsle",
+      "Lättare fordon förbrukar mer",
+      "Vikten påverkar bara utsläppen, inte förbrukningen"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tyngre fordon kräver mer energi för acceleration och rörelse, vilket ökar bränsleförbrukning och utsläpp. Det är en anledning till att lätta material används i moderna fordon.",
+    "imageId": null
+  },
+  {
+    "id": "mi-012",
+    "category": "miljo",
+    "text": "Vad är en miljözon?",
+    "options": [
+      "En parkering för elbilar",
+      "Ett område där fordon med höga utsläpp kan vara förbjudna att köra",
+      "En väg med lägre hastighetsgräns",
+      "En bensinfri zon"
+    ],
+    "correctIndex": 1,
+    "explanation": "Miljözoner är avgränsade stadsområden som begränsar eller förbjuder tillträde för fordon med höga utsläpp, för att förbättra luftkvaliteten i stadsmiljö.",
+    "imageId": null
+  },
+  {
+    "id": "mi-013",
+    "category": "miljo",
+    "text": "Vilket bränsle ger minst CO2-utsläpp per energienhet vid förbränning?",
+    "options": ["Bensin", "Diesel", "Naturgas (CNG)", "Vätgas"],
+    "correctIndex": 3,
+    "explanation": "Vätgas producerar bara vatten vid förbränning (inga CO2-utsläpp direkt). Dock beror den totala miljöpåverkan på hur vätgasen produceras.",
+    "imageId": null
+  },
+  {
+    "id": "mi-014",
+    "category": "miljo",
+    "text": "Varför är regelbunden service viktig ur miljösynpunkt?",
+    "options": [
+      "Det påverkar inte miljön",
+      "Välservat fordon har lägre bränsleförbrukning och renare avgaser",
+      "Service ökar utsläppen",
+      "Enbart för att undvika motorhaveri"
+    ],
+    "correctIndex": 1,
+    "explanation": "Regelbunden service (olje-, luft- och tändstiftsbyten) ser till att motorn fungerar optimalt, vilket ger lägre bränsleförbrukning och renare avgaser.",
+    "imageId": null
+  },
+  {
+    "id": "mi-015",
+    "category": "miljo",
+    "text": "Vad är HVO (Hydrerat vegetabiliskt olja)?",
+    "options": [
+      "En typ av motorolja",
+      "Ett förnybart dieseldrivmedel med upp till 90% lägre CO2-utsläpp",
+      "En typ av kylvätska",
+      "En bränsleadditiv"
+    ],
+    "correctIndex": 1,
+    "explanation": "HVO100 är ett förnybart dieseldrivmedel tillverkat av vegetabiliska oljor och avfall. Det kan minska CO2-utsläppen med upp till 90% jämfört med fossil diesel och passar de flesta dieselmotorer.",
+    "imageId": null
+  }
+]

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- STOP octagon -->
+  <polygon points="35,8 65,8 92,35 92,65 65,92 35,92 8,65 8,35" fill="#E30000" stroke="#E30000" stroke-width="1"/>
+  <polygon points="35,10 65,10 90,35 90,65 65,90 35,90 10,65 10,35" fill="#E30000"/>
+  <text x="50" y="59" font-family="Arial Black, sans-serif" font-size="20" font-weight="900" fill="white" text-anchor="middle" dominant-baseline="middle">STOP</text>
+</svg>
