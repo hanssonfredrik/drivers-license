@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" width="120" height="80">
+  <!-- Motor traffic road (motortrafikled) sign: green rectangle -->
+  <rect x="2" y="2" width="116" height="76" rx="8" fill="#006633"/>
+  <!-- Road symbol: single lane with side lanes -->
+  <rect x="54" y="12" width="12" height="56" rx="3" fill="white"/>
+  <!-- Entrance ramp left -->
+  <path d="M20,60 Q38,58 52,38" fill="none" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <!-- Entrance ramp right -->
+  <path d="M100,60 Q82,58 68,38" fill="none" stroke="white" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -198,6 +198,150 @@
     "description": "Anger europavägnummer (E-väg).",
     "detailedDescription": "Vit siffra på grön bakgrund.",
     "relatedRule": null
+  },
+  {
+    "id": "A6",
+    "name": "Ojämn väg",
+    "signCategory": "varning",
+    "description": "Varnar för ojämn vägbana.",
+    "detailedDescription": "Gupp, gropar eller vägskador kan finnas. Sänk hastigheten.",
+    "relatedRule": "Sänk hastigheten för att undvika skador på fordonet."
+  },
+  {
+    "id": "A9",
+    "name": "Varning för vilt",
+    "signCategory": "varning",
+    "description": "Varnar för att vilt ofta korsar vägen.",
+    "detailedDescription": "Symboler kan visa älg, rådjur eller andra djur. Extra aktuellt vid gryning och skymning.",
+    "relatedRule": "Sänk hastigheten och var extra uppmärksam, särskilt vid gryning och skymning."
+  },
+  {
+    "id": "A22",
+    "name": "Varning för gångtrafikanter",
+    "signCategory": "varning",
+    "description": "Varnar för att gångtrafikanter ofta rör sig i närheten av vägen.",
+    "detailedDescription": "Kan finnas nära skolor, bostadsområden eller äldreboenden.",
+    "relatedRule": "Sänk hastigheten och var beredd att stanna för gående."
+  },
+  {
+    "id": "A23",
+    "name": "Varning för barn",
+    "signCategory": "varning",
+    "description": "Varnar för att barn kan vistas i närheten av vägen.",
+    "detailedDescription": "Vanlig vid skolor och lekplatser. Barn kan springa ut oväntat.",
+    "relatedRule": "Sänk hastigheten avsevärt. Barn är oförutsägbara."
+  },
+  {
+    "id": "A24",
+    "name": "Varning för cyklister",
+    "signCategory": "varning",
+    "description": "Varnar för att cyklister ofta korsar eller använder vägen.",
+    "detailedDescription": "Var uppmärksam vid cykelöverfarter och korsningar.",
+    "relatedRule": "Var beredd att stanna. Lämna sidoavstånd."
+  },
+  {
+    "id": "C2",
+    "name": "Förbud mot infart med fordon",
+    "signCategory": "forbud",
+    "description": "Infart med fordon förbjuden.",
+    "detailedDescription": "Vanligtvis placerad vid enkelriktade gator för att förhindra körning mot färdriktningen.",
+    "relatedRule": "Du får inte köra in genom denna infart."
+  },
+  {
+    "id": "C3",
+    "name": "Förbud mot trafik med motordrivet fordon",
+    "signCategory": "forbud",
+    "description": "Motortrafik är förbjuden.",
+    "detailedDescription": "Gäller alla motordrivna fordon. Gång- och cykeltrafik är tillåten.",
+    "relatedRule": "Kör inte med motordrivet fordon på denna sträcka."
+  },
+  {
+    "id": "C33",
+    "name": "Slut på hastighetsbegränsning",
+    "signCategory": "forbud",
+    "description": "Anger att särskild hastighetsbegränsning upphör.",
+    "detailedDescription": "Generell hastighetsgräns gäller efter märket.",
+    "relatedRule": "Allmän hastighetsgräns gäller framöver."
+  },
+  {
+    "id": "D4",
+    "name": "Påbjuden rondellkörning",
+    "signCategory": "pabud",
+    "description": "Anger att du ska följa cirkulationsriktningen i rondell.",
+    "detailedDescription": "Kör moturs runt rondellen. Fordon i rondellen har företräde.",
+    "relatedRule": "Följ cirkulationsriktningen. Lämna företräde åt trafik redan i rondellen."
+  },
+  {
+    "id": "E1",
+    "name": "Motorväg upphör",
+    "signCategory": "information",
+    "description": "Anger att motorväg slutar.",
+    "detailedDescription": "Hastighetsreglerna för motorväg gäller inte längre.",
+    "relatedRule": "Anpassa hastigheten – motorvägsregler gäller inte längre."
+  },
+  {
+    "id": "E4",
+    "name": "Huvudled",
+    "signCategory": "information",
+    "description": "Anger att du befinner dig på en huvudled.",
+    "detailedDescription": "Du har företräde i korsningar om inget annat anges. Gul rombformad skylt.",
+    "relatedRule": "Du har företräde i kommande korsningar."
+  },
+  {
+    "id": "E5",
+    "name": "Huvudled upphör",
+    "signCategory": "information",
+    "description": "Anger att huvudled upphör.",
+    "detailedDescription": "Högerregeln eller andra väjningsregler gäller efter detta märke.",
+    "relatedRule": "Högerregeln gäller igen om inget annat skyltas."
+  },
+  {
+    "id": "E15",
+    "name": "Gångfartsområde",
+    "signCategory": "information",
+    "description": "Anger gångfartsområde – fordon ska anpassa hastigheten till gångfart.",
+    "detailedDescription": "Gående har företräde. Max ca 7 km/h. Parkering tillåten bara på markerade platser.",
+    "relatedRule": "Kör i gångfart (ca 7 km/h). Gående har företräde."
+  },
+  {
+    "id": "E16",
+    "name": "Gångfartsområde upphör",
+    "signCategory": "information",
+    "description": "Anger att gångfartsområde upphör.",
+    "detailedDescription": "Normala trafikregler gäller efter märket.",
+    "relatedRule": "Vanliga trafikregler gäller framöver."
+  },
+  {
+    "id": "J1",
+    "name": "Övergångsställe",
+    "signCategory": "anvisning",
+    "description": "Anger ett övergångsställe för gående.",
+    "detailedDescription": "Gångtrafikanter har företräde. Förare ska lämna fri väg.",
+    "relatedRule": "Lämna företräde åt gående."
+  },
+  {
+    "id": "J3",
+    "name": "Cykelöverfart",
+    "signCategory": "anvisning",
+    "description": "Anger en cykelöverfart.",
+    "detailedDescription": "Cyklister har företräde vid cykelöverfart.",
+    "relatedRule": "Lämna företräde åt korsande cyklister."
+  },
+  {
+    "id": "T1",
+    "name": "Avstånd",
+    "signCategory": "tillaggstavla",
+    "description": "Anger avståndet till det som varningsmärket avser.",
+    "detailedDescription": "Placeras under ett varningsmärke och anger hur långt det är till faran.",
+    "relatedRule": null
+  },
+  {
+    "id": "T2",
+    "name": "Sträcka",
+    "signCategory": "tillaggstavla",
+    "description": "Anger den sträcka som ett vägmärke gäller.",
+    "detailedDescription": "Anger hur länge faran/förbudet gäller, t.ex. '500 m'.",
+    "relatedRule": null
   }
 ]
 

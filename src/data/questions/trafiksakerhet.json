@@ -203,5 +203,425 @@
     "correctIndex": 1,
     "explanation": "Forskning visar att handhållen mobilanvändning under körning kan öka reaktionstiden med upp till 4 gånger – värre än rattfylleri.",
     "imageId": null
+  },
+  {
+    "id": "ts-016",
+    "category": "trafiksakerhet",
+    "text": "Vad händer med stoppsträckan om hastigheten fördubblas?",
+    "options": [
+      "Stoppsträckan fördubblas",
+      "Stoppsträckan tredubblas",
+      "Stoppsträckan fyrdubblas",
+      "Stoppsträckan ökas med 50 %"
+    ],
+    "correctIndex": 2,
+    "explanation": "Bromssträckan ökar med kvadraten på hastigheten. Om hastigheten fördubblas blir bromssträckan fyra gånger längre.",
+    "imageId": null
+  },
+  {
+    "id": "ts-017",
+    "category": "trafiksakerhet",
+    "text": "Vad är syftet med bilens krockkuddar?",
+    "options": [
+      "Ersätta bilbältet",
+      "Minska hastigheten före krock",
+      "Fördela och dämpa krafterna vid kollision – som komplement till bältet",
+      "Skydda bilenfrån skador"
+    ],
+    "correctIndex": 2,
+    "explanation": "Krockkuddar minskar skaderisken genom att fördela och dämpa krafterna vid en kollision. De är ett komplement till bilbältet och fungerar inte optimalt utan bälte.",
+    "imageId": null
+  },
+  {
+    "id": "ts-018",
+    "category": "trafiksakerhet",
+    "text": "Hur påverkas bromssträckan på våt väg?",
+    "options": [
+      "Den minskar",
+      "Den förblir oförändrad",
+      "Den kan bli dubbelt så lång",
+      "Den minskar med 50 %"
+    ],
+    "correctIndex": 2,
+    "explanation": "På våt väg kan bromssträckan bli upp till dubbelt så lång som på torr väg eftersom friktionen minskar avsevärt.",
+    "imageId": null
+  },
+  {
+    "id": "ts-019",
+    "category": "trafiksakerhet",
+    "text": "Vad innebär tunnelseende?",
+    "options": [
+      "Att man ser bättre framåt",
+      "Synfältet minskar vid hög hastighet eller stress – man missar saker i periferin",
+      "Att man kör bättre i tunnlar",
+      "Att ögonen vänjer sig vid mörker"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tunnelseende innebär att synfältet minskar vid hög hastighet, stress eller trötthet. Föraren kan missa viktig information i periferin av synfältet.",
+    "imageId": null
+  },
+  {
+    "id": "ts-020",
+    "category": "trafiksakerhet",
+    "text": "Vilken är den vanligaste orsaken till olyckor med dödlig utgång i Sverige?",
+    "options": [
+      "Mekaniska fel",
+      "Dåliga vägar",
+      "Mänskliga faktorer (hastighet, ouppmärksamhet, alkohol)",
+      "Djur på vägen"
+    ],
+    "correctIndex": 2,
+    "explanation": "Omkring 90 % av alla trafikolyckor beror på mänskliga faktorer som för hög hastighet, ouppmärksamhet och alkohol.",
+    "imageId": null
+  },
+  {
+    "id": "ts-021",
+    "category": "trafiksakerhet",
+    "text": "Vad bör du göra om du börjar känna dig trött under en lång bilresa?",
+    "options": [
+      "Öka hastigheten för att komma fram snabbare",
+      "Öppna fönstret och fortsätta köra",
+      "Stanna och ta en paus – en 20-minuters tupplur hjälper bäst",
+      "Dricka kaffe och fortsätta köra"
+    ],
+    "correctIndex": 2,
+    "explanation": "Det bästa vid trötthet är att stanna och ta en kort vilostund (powernap). Att öppna fönstret eller spela musik hjälper bara tillfälligt.",
+    "imageId": null
+  },
+  {
+    "id": "ts-022",
+    "category": "trafiksakerhet",
+    "text": "Vad är den största risken med att köra tätt bakom ett tungt fordon?",
+    "options": [
+      "Du sparar bränsle",
+      "Du har begränsad sikt framåt och sämre tid att reagera",
+      "Ditt fordon tar skada av avgaser",
+      "Polisen kan ge böter"
+    ],
+    "correctIndex": 1,
+    "explanation": "Att köra för nära ett tungt fordon begränsar sikten och minskar tiden att reagera på oväntade händelser framför det tunga fordonet.",
+    "imageId": null
+  },
+  {
+    "id": "ts-023",
+    "category": "trafiksakerhet",
+    "text": "Vad innebär Nollvisionen (Vision Zero)?",
+    "options": [
+      "Att inga bilar ska finnas i stadskärnor",
+      "Att vi siktar på noll dödade och svårt skadade i trafiken",
+      "Att alla hastigheter sänks till noll",
+      "Att noll bensinbilar ska tillåtas 2030"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nollvisionen är Sveriges trafikpolitiska mål – att ingen ska dödas eller skadas svårt i trafiken. Systemet ska utformas för att tolerera mänskliga misstag.",
+    "imageId": null
+  },
+  {
+    "id": "ts-024",
+    "category": "trafiksakerhet",
+    "text": "Hur ska barn under 135 cm färdas i en personbil?",
+    "options": [
+      "I framsätet med bilbälte",
+      "I baksätet utan bälte",
+      "I godkänt barnstol eller bälteskudde anpassad för barnets storlek",
+      "Det finns inga regler"
+    ],
+    "correctIndex": 2,
+    "explanation": "Barn ska använda godkänd skyddsutrustning anpassad till deras storlek och vikt – t.ex. babyskydd, barnstol eller bälteskudde.",
+    "imageId": null
+  },
+  {
+    "id": "ts-025",
+    "category": "trafiksakerhet",
+    "text": "Vad är risken med att inte anpassa hastigheten i regn?",
+    "options": [
+      "Ingen alls – moderna bilar klarar det",
+      "Aquaplaning – däcken tappar kontakten med vägbanan",
+      "Bilen går sönder",
+      "Du blir dåsig"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vid höga hastigheter i regn kan vatten samlas under däcken och bilen börjar glidflyga (aquaplaning). Då förlorar du styrförmågan helt.",
+    "imageId": null
+  },
+  {
+    "id": "ts-026",
+    "category": "trafiksakerhet",
+    "text": "Vilket avstånd rekommenderas till framförvarande fordon vid 90 km/h?",
+    "options": [
+      "En bilslängd",
+      "Minst 3 sekunder",
+      "Minst 10 meter",
+      "Det spelar ingen roll"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vid hastigheter runt 90 km/h rekommenderas minst 3 sekunders avstånd till framförvarande fordon. I dåligt väglag bör avståndet ökas ytterligare.",
+    "imageId": null
+  },
+  {
+    "id": "ts-027",
+    "category": "trafiksakerhet",
+    "text": "Vad är den största risken med eftersupning (att dricka alkohol direkt efter körning)?",
+    "options": [
+      "Ingen risk – du kör inte längre",
+      "Kan användas som falsk ursäkt vid misstänkt rattfylleri",
+      "Alkoholen påverkar dig fortare",
+      "Du blir sjuk"
+    ],
+    "correctIndex": 1,
+    "explanation": "Eftersupning är när man dricker alkohol direkt efter ett stopp, ibland som försök att dölja rattfylleri. Rätten kan besluta om straffbarhet ändå om omständigheterna talar för det.",
+    "imageId": null
+  },
+  {
+    "id": "ts-028",
+    "category": "trafiksakerhet",
+    "text": "Vad innebär begreppet 'döda vinkeln'?",
+    "options": [
+      "Det farligaste hörnet i en korsning",
+      "Det område runt fordonet som föraren inte kan se i backspeglarna",
+      "En kurva med skymd sikt",
+      "En terräng där GPS inte fungerar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Döda vinkeln är det område bredvid och snett bakom bilen som inte syns i backspeglarna. Du måste vända på huvudet (axelkoll) för att kontrollera den.",
+    "imageId": null
+  },
+  {
+    "id": "ts-029",
+    "category": "trafiksakerhet",
+    "text": "Vad bör du göra om du kommer till en trafikolycka?",
+    "options": [
+      "Köra förbi – det är farligt att stanna",
+      "Stanna på säkert sätt, varna annan trafik, larma 112 och ge första hjälpen",
+      "Bara ringa 112 och fortsätta",
+      "Vänta tills polis kommer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vid en trafikolycka ska du stanna säkert, varna annan trafik (varningstriangel), ringa 112 och ge första hjälpen efter förmåga.",
+    "imageId": null
+  },
+  {
+    "id": "ts-030",
+    "category": "trafiksakerhet",
+    "text": "Hur långt ifrån olycksplatsen bör varningstriangeln placeras på en 90-väg?",
+    "options": [
+      "10 meter",
+      "50 meter",
+      "Minst 150 meter",
+      "300 meter"
+    ],
+    "correctIndex": 2,
+    "explanation": "På en väg med 90 km/h ska varningstriangeln placeras minst 150 meter före olycksplatsen så att övrig trafik hinner reagera.",
+    "imageId": null
+  },
+  {
+    "id": "ts-031",
+    "category": "trafiksakerhet",
+    "text": "Vilken effekt har för hög hastighet på olycksrisken?",
+    "options": [
+      "Ingen – modern bilar kompenserar",
+      "Risken ökar marginellt",
+      "Risken ökar exponentiellt – en liten hastighetsökning ger stor ökning av risken",
+      "Risken minskar vid hög hastighet"
+    ],
+    "correctIndex": 2,
+    "explanation": "Risken för dödlig utgång ökar exponentiellt med ökad hastighet. Att öka från 50 till 60 km/h fördubblar risken för att en fotgängare omkommer vid påkörning.",
+    "imageId": null
+  },
+  {
+    "id": "ts-032",
+    "category": "trafiksakerhet",
+    "text": "Vilken tid på dygnet inträffar flest singelolyckor?",
+    "options": [
+      "Under morgonrusning",
+      "Under lunchtid",
+      "Under natten och tidiga morgontimmarna",
+      "Under eftermiddagen"
+    ],
+    "correctIndex": 2,
+    "explanation": "Flest singelolyckor inträffar under natten och tidiga morgontimmarna, ofta på grund av trötthet och nedsatt uppmärksamhet.",
+    "imageId": null
+  },
+  {
+    "id": "ts-033",
+    "category": "trafiksakerhet",
+    "text": "Vad är en viktig åtgärd för att minska risken för viltolyckor?",
+    "options": [
+      "Köra med helljus och tuta ofta",
+      "Anpassa hastigheten, vara uppmärksam vid gryning/skymning och vid viltskylt",
+      "Köra så fort som möjligt genom riskområden",
+      "Det finns inget man kan göra"
+    ],
+    "correctIndex": 1,
+    "explanation": "Viltolyckor är vanligast vid gryning och skymning. Var extra uppmärksam vid viltvarningsskyltar, sänk hastigheten och var beredd att stanna.",
+    "imageId": null
+  },
+  {
+    "id": "ts-034",
+    "category": "trafiksakerhet",
+    "text": "Vad bör du göra om ett hjul plötsligt punkterar under körning?",
+    "options": [
+      "Bromsa kraftigt",
+      "Svänga snabbt åt sidan",
+      "Håll stadigt i ratten, undvik broms, blinkar och kör av vägen försiktigt",
+      "Accelerera för att stabilisera bilen"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vid punktering ska du hålla stadigt i ratten, undvika kraftig inbromsning och försiktigt sakta ner till stopp på en säker plats.",
+    "imageId": null
+  },
+  {
+    "id": "ts-035",
+    "category": "trafiksakerhet",
+    "text": "Vad är den rekommenderade säkerhetsregeln vid körning bakom andra i tätort?",
+    "options": [
+      "1-sekundersgeln",
+      "2-sekundersregeln",
+      "5-sekundersregeln",
+      "Det finns ingen sådan regel"
+    ],
+    "correctIndex": 1,
+    "explanation": "2-sekundersregeln innebär att det ska vara minst 2 sekunders tidslucka mellan dig och framförvarande fordon. I dåligt väder bör du öka till 4 sekunder.",
+    "imageId": null
+  },
+  {
+    "id": "ts-036",
+    "category": "trafiksakerhet",
+    "text": "Vilka förare löper störst risk att vara inblandade i trafikolyckor?",
+    "options": [
+      "Erfarna förare mellan 40 och 50 år",
+      "Unga oerfarna förare (18–24 år)",
+      "Förare i medelåldern",
+      "Yrkesförare"
+    ],
+    "correctIndex": 1,
+    "explanation": "Unga förare mellan 18 och 24 år är kraftigt överrepresenterade i trafikolyckor på grund av brist på erfarenhet och riskbenägenhet.",
+    "imageId": null
+  },
+  {
+    "id": "ts-037",
+    "category": "trafiksakerhet",
+    "text": "Vad är ESC/ESP i en bil?",
+    "options": [
+      "En typ av bränslesystem",
+      "Elektroniskt stabilitetssystem som motverkar sladd",
+      "Elektronisk startmotor",
+      "En typ av krockkudde"
+    ],
+    "correctIndex": 1,
+    "explanation": "ESC (Electronic Stability Control) eller ESP är ett system som hjälper föraren att behålla kontrollen genom att automatiskt bromsa enskilda hjul vid sladd.",
+    "imageId": null
+  },
+  {
+    "id": "ts-038",
+    "category": "trafiksakerhet",
+    "text": "Vad bör du tänka på vid körning i dimma?",
+    "options": [
+      "Kör nära framförvarande för att se deras bakljus",
+      "Sänk hastigheten, öka avståndet och använd halvljus (inte helljus)",
+      "Använd alltid helljus i dimma",
+      "Kör på känsla – sikten spelar ingen roll"
+    ],
+    "correctIndex": 1,
+    "explanation": "I dimma ska du sänka hastigheten avsevärt, öka avståndet till framförvarande och använda halvljus. Helljus reflekteras i dimman och försämrar sikten.",
+    "imageId": null
+  },
+  {
+    "id": "ts-039",
+    "category": "trafiksakerhet",
+    "text": "Vilken typ av skador minskar bilbältet mest effektivt?",
+    "options": [
+      "Skador på benen",
+      "Utkastning ur fordonet och huvudskador",
+      "Brännskador",
+      "Hörselskador"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bilbältet förhindrar att passagerare kastas ut ur fordonet och minskar kraftigt risken för huvud- och bröstskador vid kollision.",
+    "imageId": null
+  },
+  {
+    "id": "ts-040",
+    "category": "trafiksakerhet",
+    "text": "Vad innebär defensiv körning?",
+    "options": [
+      "Att köra så långsamt som möjligt",
+      "Att förutse risker, anpassa hastigheten och lämna utrymme åt andra trafikanter",
+      "Att aldrig köra om",
+      "Att undvika motorvägar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Defensiv körning innebär att du förutser risker, har god marginal, anpassar hastigheten och visar hänsyn mot andra trafikanter.",
+    "imageId": null
+  },
+  {
+    "id": "ts-041",
+    "category": "trafiksakerhet",
+    "text": "Vad bör du göra om en älg plötsligt dyker upp på vägen?",
+    "options": [
+      "Köra rakt på – bilen klarar det",
+      "Bromsa kraftigt och försök styra undan om möjligt, men kör inte in i mötande trafik",
+      "Tuta och fortsätt köra",
+      "Accelerera förbi djuret"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vid en älg på vägen ska du bromsa kraftigt. Försök styra undan om det är möjligt utan att orsaka en mötande kollision. Ljussignal kan hjälpa.",
+    "imageId": null
+  },
+  {
+    "id": "ts-042",
+    "category": "trafiksakerhet",
+    "text": "Hur påverkas din körförmåga redan vid låga alkoholnivåer (0,2 ‰)?",
+    "options": [
+      "Inte alls",
+      "Bara synförmågan påverkas",
+      "Omdömet försämras, riskbenägenheten ökar och reaktionstiden blir längre",
+      "Du blir bara lite gladare"
+    ],
+    "correctIndex": 2,
+    "explanation": "Redan vid 0,2 promille påverkas omdömet. Man underskattar risker, blir mer riskbenägen och reaktionstiden ökar.",
+    "imageId": null
+  },
+  {
+    "id": "ts-043",
+    "category": "trafiksakerhet",
+    "text": "Vad bör du göra om du kör på is och bilen börjar slira?",
+    "options": [
+      "Bromsa hårt",
+      "Accelerera ur slirningen",
+      "Släpp gasen, styra i den riktning du vill åka och undvik panikbromsning",
+      "Styr i motsatt riktning"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vid sladd på is ska du släppa gasen, styra mjukt i den riktning du vill åka (med sladdningen) och undvika att bromsa hårt.",
+    "imageId": null
+  },
+  {
+    "id": "ts-044",
+    "category": "trafiksakerhet",
+    "text": "Vad ökar risken mest för singelolycka?",
+    "options": [
+      "Regn",
+      "Kombinationen av hög hastighet, trötthet och mörker",
+      "Dålig musik",
+      "Att köra ensam"
+    ],
+    "correctIndex": 1,
+    "explanation": "Singelolyckor orsakas ofta av en kombination av hög hastighet, trötthet och dålig sikt – särskilt nattetid på landsvägar.",
+    "imageId": null
+  },
+  {
+    "id": "ts-045",
+    "category": "trafiksakerhet",
+    "text": "Hur fungerar en whiplashskyddad nackkudde?",
+    "options": [
+      "Den värmer nacken",
+      "Den stödar huvudet och nacken vid påkörning bakifrån och minskar risken för nackskador",
+      "Den är enbart för komfort",
+      "Den fungerar bara vid frontalkrock"
+    ],
+    "correctIndex": 1,
+    "explanation": "En whiplashskyddad nackkudde fångar upp huvudet vid bakifrånkollision och minskar risken för pisksnärtskada avsevärt.",
+    "imageId": null
   }
 ]

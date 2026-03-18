@@ -198,5 +198,285 @@
     "correctIndex": 1,
     "explanation": "HVO100 är ett förnybart dieseldrivmedel tillverkat av vegetabiliska oljor och avfall. Det kan minska CO2-utsläppen med upp till 90% jämfört med fossil diesel och passar de flesta dieselmotorer.",
     "imageId": null
+  },
+  {
+    "id": "mi-016",
+    "category": "miljo",
+    "text": "Vad är en miljözon i en stad?",
+    "options": [
+      "En zon där bara elbilar får köra",
+      "Ett område där fordon med höga utsläpp inte får köra eller begränsas",
+      "En parkeringszon",
+      "En zon med gratis laddning"
+    ],
+    "correctIndex": 1,
+    "explanation": "I miljözoner begränsas eller förbjuds trafik med fordon som inte uppfyller vissa utsläppskrav. Sverige har miljözoner i klass 1, 2 och 3.",
+    "imageId": null
+  },
+  {
+    "id": "mi-017",
+    "category": "miljo",
+    "text": "Hur kan du som förare bidra till att minska koldioxidutsläpp?",
+    "options": [
+      "Köra med fönstren öppna istället för AC",
+      "Eco-driving: jämn gas, rätt däcktryck, undvika tomgång och planera resor",
+      "Bara genom att byta bil",
+      "Det går inte att påverka"
+    ],
+    "correctIndex": 1,
+    "explanation": "Eco-driving med jämn gas, rätt däcktryck, minimal tomgång och god planering kan minska bränsleförbrukningen med 10–20 %.",
+    "imageId": null
+  },
+  {
+    "id": "mi-018",
+    "category": "miljo",
+    "text": "Vilken typ av fordon har absolut lägst lokala utsläpp?",
+    "options": [
+      "Dieselbil",
+      "Hybridbil",
+      "Ren elbil",
+      "Gasbil"
+    ],
+    "correctIndex": 2,
+    "explanation": "En ren elbil har noll lokala utsläpp vid körning – inga avgaser. Miljöpåverkan beror däremot på hur elen produceras.",
+    "imageId": null
+  },
+  {
+    "id": "mi-019",
+    "category": "miljo",
+    "text": "Vad innebär Euro 6-klassning?",
+    "options": [
+      "Att bilen kostar 6 euro att tanka",
+      "Den senaste EU-standarden för utsläppsgränser för fordon",
+      "Att bilen är tillverkad i Europa",
+      "Att bilen får köra på motorväg"
+    ],
+    "correctIndex": 1,
+    "explanation": "Euro 6 är den strängaste EU-utsläppsstandarden och ställer krav på låga nivåer av kväveoxider, partiklar och kolmonoxid från fordon.",
+    "imageId": null
+  },
+  {
+    "id": "mi-020",
+    "category": "miljo",
+    "text": "Hur mycket kan felaktigt däcktryck öka bränsleförbrukningen?",
+    "options": [
+      "Inte alls",
+      "Upp till 5–10 %",
+      "Exakt 1 %",
+      "Över 50 %"
+    ],
+    "correctIndex": 1,
+    "explanation": "Underfyllda däck ökar rullmotståndet och kan öka bränsleförbrukningen med 5–10 %. Kontrollera trycket regelbundet.",
+    "imageId": null
+  },
+  {
+    "id": "mi-021",
+    "category": "miljo",
+    "text": "Vad är biogas och hur framställs det?",
+    "options": [
+      "Ett fossilt bränsle från oljekällor",
+      "Gas som utvinns ur biologiskt avfall genom rötning",
+      "En syntetisk plast",
+      "En typ av bensin"
+    ],
+    "correctIndex": 1,
+    "explanation": "Biogas framställs genom rötning av organiskt avfall (matavfall, gödsel m.m.) och är ett förnybart bränsle med låga nettoutsläpp av koldioxid.",
+    "imageId": null
+  },
+  {
+    "id": "mi-022",
+    "category": "miljo",
+    "text": "Vilken effekt har tomgångskörning på miljön?",
+    "options": [
+      "Ingen – motorn behöver gå på tomgång",
+      "Onödig tomgång slösar bränsle och släpper ut avgaser utan nytta",
+      "Tomgång renar avgassystemet",
+      "Tomgång sparar bränsle"
+    ],
+    "correctIndex": 1,
+    "explanation": "Onödig tomgångskörning förbrukar bränsle och avger avgaser i onödan. Stäng av motorn vid stopp längre än 30 sekunder.",
+    "imageId": null
+  },
+  {
+    "id": "mi-023",
+    "category": "miljo",
+    "text": "Hur påverkar AC-användning bränsleförbrukningen?",
+    "options": [
+      "AC minskar bränsleförbrukningen",
+      "AC kan öka bränsleförbrukningen med 5–10 %",
+      "AC har ingen påverkan",
+      "AC minskar motorns effekt"
+    ],
+    "correctIndex": 1,
+    "explanation": "AC-kompressorn kräver energi från motorn och kan öka bränsleförbrukningen med 5–10 %, särskilt i stadskörning.",
+    "imageId": null
+  },
+  {
+    "id": "mi-024",
+    "category": "miljo",
+    "text": "Vad innebär begreppet 'well-to-wheel' när det gäller utsläpp?",
+    "options": [
+      "Utsläpp bara från avgasröret",
+      "Utsläpp från hela kedjan – från energikällan till hjulen, inklusive produktion och distribution",
+      "Att bilen får gå i brunnsmaskiner",
+      "Bara utsläpp vid tillverkning av bilen"
+    ],
+    "correctIndex": 1,
+    "explanation": "Well-to-wheel avser de totala utsläppen från energikällan (utvinning, raffinering, transport) till det att bränslet omvandlas till rörelseenergi i hjulen.",
+    "imageId": null
+  },
+  {
+    "id": "mi-025",
+    "category": "miljo",
+    "text": "Varför ska man undvika att köra med takbox när den inte behövs?",
+    "options": [
+      "Den stjäl ljud",
+      "Den ökar luftmotståndet och därmed bränsleförbrukningen",
+      "Den skrapar lacken",
+      "Det finns ingen anledning"
+    ],
+    "correctIndex": 1,
+    "explanation": "En takbox ökar luftmotståndet avsevärt, vilket kan öka bränsleförbrukningen med 10–25 % vid motorvägskörning. Ta ner den när den inte används.",
+    "imageId": null
+  },
+  {
+    "id": "mi-026",
+    "category": "miljo",
+    "text": "Vad är E85 för typ av bränsle?",
+    "options": [
+      "85 % bensin, 15 % etanol",
+      "85 % etanol, 15 % bensin – ett förnybart drivmedel",
+      "En typ av diesel",
+      "Komprimerad naturgas"
+    ],
+    "correctIndex": 1,
+    "explanation": "E85 består av 85 % etanol och 15 % bensin. Det är ett delvis förnybart bränsle som kan minska CO2-utsläppen. Kräver en flexifuel-motor.",
+    "imageId": null
+  },
+  {
+    "id": "mi-027",
+    "category": "miljo",
+    "text": "Hur bör man körplanera för att minska miljöpåverkan?",
+    "options": [
+      "Köra fort för att vara ute i trafiken kortare tid",
+      "Samla ärenden, planera rutten och undvika rusningstid",
+      "Endast köra på natten",
+      "Alltid köra samma väg"
+    ],
+    "correctIndex": 1,
+    "explanation": "Genom att samla ärenden, planera effektiva rutter och undvika rusning minskar du antal körda kilometer och tid i köer – det sparar bränsle och minskar utsläpp.",
+    "imageId": null
+  },
+  {
+    "id": "mi-028",
+    "category": "miljo",
+    "text": "Vad innebär en grön bil/miljöbil?",
+    "options": [
+      "En bil som är målad grön",
+      "Ett fordon som uppfyller särskilda krav på låga utsläpp enligt Transportstyrelsens definitioner",
+      "En bil som körs i naturen",
+      "Alla hybrider automatiskt"
+    ],
+    "correctIndex": 1,
+    "explanation": "En miljöbil uppfyller särskilda krav på låga koldioxidutsläpp eller drivs med alternativa bränslen. Definitionen uppdateras regelbundet.",
+    "imageId": null
+  },
+  {
+    "id": "mi-029",
+    "category": "miljo",
+    "text": "Hur kan du minska bränsleförbrukningen genom körstil?",
+    "options": [
+      "Accelerera kraftigt och bromsa sent",
+      "Accelerera mjukt, läsa av trafiken framåt och bromsa tidigt med motorbroms",
+      "Köra alltid i etta",
+      "Hålla hög varvtal"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mjuk acceleration, att läsa av trafiken, tidiga broms och motorbromsning är nyckeltekniker i eco-driving som kan spara 10–20 % bränsle.",
+    "imageId": null
+  },
+  {
+    "id": "mi-030",
+    "category": "miljo",
+    "text": "Vad händer med gamla fordonsbatterier från elbilar?",
+    "options": [
+      "De slängs på soptippen",
+      "De återvinns – materialen som litium, kobolt och nickel tas tillvara",
+      "De eldas",
+      "De går inte att återvinna"
+    ],
+    "correctIndex": 1,
+    "explanation": "Elbilsbatterier ska alltid återvinnas. Värdefulla material som litium, kobolt och nickel tas tillvara. Vissa batterier får även ett andra liv som energilager.",
+    "imageId": null
+  },
+  {
+    "id": "mi-031",
+    "category": "miljo",
+    "text": "Vad är den största globala nackdelen med fossila bränslen (bensin och diesel)?",
+    "options": [
+      "De är billiga",
+      "De bidrar till växthuseffekten och klimatförändringarna",
+      "De är svåra att producera",
+      "De luktar illa"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fossila bränslen släpper ut koldioxid (CO2) vid förbränning, vilket bidrar starkt till växthuseffekten och den globala uppvärmningen.",
+    "imageId": null
+  },
+  {
+    "id": "mi-032",
+    "category": "miljo",
+    "text": "Vilket euroklassificering krävs minst för att köra i miljözon 2 i Sverige?",
+    "options": [
+      "Euro 3",
+      "Euro 4",
+      "Euro 5",
+      "Euro 6"
+    ],
+    "correctIndex": 2,
+    "explanation": "Miljözon 2 i Sverige kräver minst Euro 5 för dieselfordon. Krav kan variera beroende på fordontyp och kommun.",
+    "imageId": null
+  },
+  {
+    "id": "mi-033",
+    "category": "miljo",
+    "text": "Vad är kväveoxider (NOx) och varför är de skadliga?",
+    "options": [
+      "De är det samma som CO2",
+      "Giftiga gaser från förbränning som bidrar till smog, luftföroreningar och andningsproblem",
+      "De är ofarliga",
+      "De uppstår bara i fabriker"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kväveoxider (NOx) bildas vid förbränning i motorer, särskilt diesel. De bidrar till marknära ozon, smog och försurning, och kan orsaka andningsproblem.",
+    "imageId": null
+  },
+  {
+    "id": "mi-034",
+    "category": "miljo",
+    "text": "Hur påverkar onödig vikt i bilen bränsleförbrukningen?",
+    "options": [
+      "Inte alls",
+      "Extra vikt ökar bränsleförbrukningen – ta bort onödiga saker från bilen",
+      "Extra vikt minskar förbrukningen",
+      "Bara om vikten överstiger 500 kg"
+    ],
+    "correctIndex": 1,
+    "explanation": "Varje extra 100 kg i bilen ökar bränsleförbrukningen med ca 5 %. Ta bort onödiga saker som skidbox, byggmaterial etc.",
+    "imageId": null
+  },
+  {
+    "id": "mi-035",
+    "category": "miljo",
+    "text": "Var ska spillolja och kylvätska från din bil lämnas?",
+    "options": [
+      "I vanligt hushållsavfall",
+      "Hällas ut i naturen",
+      "Lämnas på återvinningscentral eller verkstad",
+      "Det spelar ingen roll"
+    ],
+    "correctIndex": 2,
+    "explanation": "Spillolja, kylvätska och annat bilrelaterat avfall är farligt avfall och ska lämnas in på en återvinningscentral eller hos en bilverkstad.",
+    "imageId": null
   }
 ]

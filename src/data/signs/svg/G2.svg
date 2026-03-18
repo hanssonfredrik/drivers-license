@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <!-- Europavägsnummer (European road number): white number on green background -->
+  <rect x="2" y="2" width="76" height="76" rx="6" fill="#006633"/>
+  <rect x="6" y="6" width="68" height="68" rx="4" fill="#006633" stroke="white" stroke-width="2"/>
+  <text x="40" y="44" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">E 20</text>
+</svg>

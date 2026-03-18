@@ -188,5 +188,395 @@
     "correctIndex": 2,
     "explanation": "Den allmänna hastighetsgränsen i tättbebyggt område är 50 km/h om inget annat skyltas.",
     "imageId": null
+  },
+  {
+    "id": "tr-016",
+    "category": "trafikregler",
+    "text": "Vad gäller vid ett obevakat övergångsställe?",
+    "options": [
+      "Du behöver inte sakta ner",
+      "Du ska alltid stanna",
+      "Du ska lämna företräde åt gående som gått ut eller visar att de tänker gå ut på övergångsstället",
+      "Gående ska alltid vänta på bilar"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vid obevakat övergångsställe har gångtrafikanter som gått ut eller visat avsikt att gå ut på övergångsstället företräde framför fordon.",
+    "imageId": null
+  },
+  {
+    "id": "tr-017",
+    "category": "trafikregler",
+    "text": "Hur nära en korsning får du parkera?",
+    "options": ["5 meter", "10 meter", "15 meter", "20 meter"],
+    "correctIndex": 1,
+    "explanation": "Du får inte parkera inom 10 meter från en korsning om det inte finns markerade parkeringsrutor.",
+    "imageId": null
+  },
+  {
+    "id": "tr-018",
+    "category": "trafikregler",
+    "text": "Vad innebär en streckad mittlinje?",
+    "options": [
+      "Omkörning helt förbjuden",
+      "Omkörning tillåten om det kan ske säkert",
+      "Omkörning tillåten utan begränsning",
+      "Vägen är enbart för busstrafik"
+    ],
+    "correctIndex": 1,
+    "explanation": "Streckad mittlinje innebär att du får korsa linjen för omkörning, förutsatt att det kan ske utan fara.",
+    "imageId": null
+  },
+  {
+    "id": "tr-019",
+    "category": "trafikregler",
+    "text": "Vad gäller vid möte med mötande fordon på smal väg?",
+    "options": [
+      "Den som kör fortast har företräde",
+      "Den som kör nedför backen har företräde",
+      "Den som har en hinderfri mötesplats närmast ska backa",
+      "Man ska alltid stanna och vänta"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vid möte på smal väg ska den förare som enklast och säkrast kan väja eller backa göra det, vanligtvis den som har en mötesplats närmast.",
+    "imageId": null
+  },
+  {
+    "id": "tr-020",
+    "category": "trafikregler",
+    "text": "Vilken hastighet gäller normalt på motorväg?",
+    "options": ["90 km/h", "100 km/h", "110 km/h", "120 km/h"],
+    "correctIndex": 2,
+    "explanation": "Den vanligaste hastighetsgränsen på svenska motorvägar är 110 km/h, men den kan variera. Skyltar anger den specifika gränsen.",
+    "imageId": null
+  },
+  {
+    "id": "tr-021",
+    "category": "trafikregler",
+    "text": "Får du använda mobiltelefon medan du kör?",
+    "options": [
+      "Ja, det är alltid tillåtet",
+      "Ja, men bara handsfree",
+      "Nej, all användning som stör körningen är förbjuden",
+      "Ja, om du kör under 50 km/h"
+    ],
+    "correctIndex": 2,
+    "explanation": "Det är förbjudet att använda mobiltelefon på ett sätt som stör körningen. Handsfree tillåts men all hantering som tar uppmärksamheten från trafiken är otillåten.",
+    "imageId": null
+  },
+  {
+    "id": "tr-022",
+    "category": "trafikregler",
+    "text": "Vad gäller vid parkering i backe utan trottoarkant?",
+    "options": [
+      "Dra åthandbromsning",
+      "Lägg i ettans växel eller P (automat) och dra handbromsen",
+      "Inget speciellt behöver göras",
+      "Lås bilen – det räcker"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vid parkering i backe ska du dra åt handbromsen och lägga i lämplig växel (etta eller back beroende på lutning). Automatväxel ska stå i P.",
+    "imageId": null
+  },
+  {
+    "id": "tr-023",
+    "category": "trafikregler",
+    "text": "Vad innebär det om en polisbil med blåljus och siren närmar sig bakifrån?",
+    "options": [
+      "Du ska öka hastigheten",
+      "Du ska flytta dig åt sidan och vid behov stanna för att underlättar framkörning",
+      "Du ska stanna omedelbart mitt på vägen",
+      "Du ska göra en U-sväng"
+    ],
+    "correctIndex": 1,
+    "explanation": "Du ska ge fri väg åt utryckningsfordon genom att flytta dig åt sidan och vid behov stanna.",
+    "imageId": null
+  },
+  {
+    "id": "tr-024",
+    "category": "trafikregler",
+    "text": "Vad gäller bilbälte i en personbil?",
+    "options": [
+      "Bara föraren behöver bälte",
+      "Alla i bilen ska använda bälte",
+      "Bälte behövs bara i framsätet",
+      "Passagerare över 15 år behöver inget bälte"
+    ],
+    "correctIndex": 1,
+    "explanation": "Alla i bilen – både förare och samtliga passagerare – ska använda bilbälte. Föraren ansvarar för att barn under 15 år bär bälte.",
+    "imageId": null
+  },
+  {
+    "id": "tr-025",
+    "category": "trafikregler",
+    "text": "Var ska du placera dig om du vill svänga vänster i en fyrvägskorsning?",
+    "options": [
+      "I höger körfält",
+      "Mitt på körbanan",
+      "Så nära vägens mitt eller i vänster körfält som möjligt",
+      "Det spelar ingen roll"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vid vänstersväng ska du placera dig så nära vägens mitt som möjligt, eller i det vänstra körfältet om det finns flera körfält.",
+    "imageId": null
+  },
+  {
+    "id": "tr-026",
+    "category": "trafikregler",
+    "text": "Vad gäller vid dubbelriktad cykelpassage som korsar din väg?",
+    "options": [
+      "Cyklister har alltid företräde",
+      "Du har alltid företräde",
+      "Du ska vara uppmärksam och beredd att stanna – reglerna liknar övergångsställe",
+      "Du ska blinka och köra rakt igenom"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vid cykelpassage (cykelöverfart) ska du anpassa hastigheten och vara beredd att stanna. Vid cykelöverfart har cyklisten företräde.",
+    "imageId": null
+  },
+  {
+    "id": "tr-027",
+    "category": "trafikregler",
+    "text": "När är det tillåtet att använda helljus?",
+    "options": [
+      "Alltid under körning",
+      "Bara på motorväg",
+      "När det inte bländar mötande eller framförvarande trafik",
+      "Bara utanför tättbebyggt område"
+    ],
+    "correctIndex": 2,
+    "explanation": "Helljus får användas när det behövs men ska bländas ner vid möte med annan trafik och när du kör bakom andra fordon.",
+    "imageId": null
+  },
+  {
+    "id": "tr-028",
+    "category": "trafikregler",
+    "text": "Du närmar dig en busshållplats med skylt där bussen precis stannat. Vad gäller?",
+    "options": [
+      "Du ska alltid stanna och vänta",
+      "Du ska anpassa hastigheten och vara beredd att stanna för fotgängare",
+      "Du ska köra om bussen snabbt",
+      "Du ska tuta för att varna"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vid busshållplatser ska du vara särskilt uppmärksam på gående som kliver av eller på bussen och anpassa hastigheten.",
+    "imageId": null
+  },
+  {
+    "id": "tr-029",
+    "category": "trafikregler",
+    "text": "Vilken hastighet gäller generellt vid passage av skola (skolzon)?",
+    "options": ["20 km/h", "30 km/h", "40 km/h", "50 km/h"],
+    "correctIndex": 1,
+    "explanation": "Kring skolor sätts ofta hastighetsgränsen till 30 km/h under skolans öppettider för att öka barns säkerhet.",
+    "imageId": null
+  },
+  {
+    "id": "tr-030",
+    "category": "trafikregler",
+    "text": "Vad gäller om du närmar dig en spårvagn som stannat för att släppa av passagerare?",
+    "options": [
+      "Du ska köra förbi på vänster sida",
+      "Du ska stanna och vänta tills passagerarna korsat vägen",
+      "Du ska tuta och köra förbi",
+      "Du ska alltid byta körfält"
+    ],
+    "correctIndex": 1,
+    "explanation": "Du ska stanna och låta spårvagnspassagerare korsa vägen säkert till trottoaren.",
+    "imageId": null
+  },
+  {
+    "id": "tr-031",
+    "category": "trafikregler",
+    "text": "Vad gäller om du missar din avfart på motorvägen?",
+    "options": [
+      "Backa till avfarten",
+      "Kör vidare till nästa avfart",
+      "Svängt runt på motorvägen",
+      "Stanna på vägrenen och gå till avfarten"
+    ],
+    "correctIndex": 1,
+    "explanation": "Det är förbjudet att backa, vända eller stanna på motorväg. Om du missar din avfart måste du köra vidare till nästa.",
+    "imageId": null
+  },
+  {
+    "id": "tr-032",
+    "category": "trafikregler",
+    "text": "Vad gäller vid parkering på gata med datumparkering?",
+    "options": [
+      "Du parkerar var du vill hela dagen",
+      "Du ska parkera på den sida av gatan som datumet anger (jämna/udda dagar)",
+      "Det beror på ditt registreringsnummer",
+      "Datumparkering gäller bara bussar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vid datumparkering gäller att du på udda datumnummer parkerar på sidan med udda husnummer, och tvärtom på jämna datum.",
+    "imageId": null
+  },
+  {
+    "id": "tr-033",
+    "category": "trafikregler",
+    "text": "Vad innebär en gul blinker i en trafiksignal?",
+    "options": [
+      "Signalen är ur funktion – var försiktig och tillämpa högerregeln",
+      "Kör så fort som möjligt",
+      "Samma som grönt ljus",
+      "Sväng bara till höger"
+    ],
+    "correctIndex": 0,
+    "explanation": "Blinkande gul signal innebär att trafikljusen inte är i normal drift. Kör försiktigt och tillämpa vanliga väjningsregler (t.ex. högerregeln).",
+    "imageId": null
+  },
+  {
+    "id": "tr-034",
+    "category": "trafikregler",
+    "text": "Vad innebär vägmärket 'Förbud mot trafik med fordon' (C1)?",
+    "options": [
+      "Bara motorcyklar förbjudna",
+      "All motortrafik förbjuden i den riktning skylten anger",
+      "Parkering förbjuden",
+      "Fordon över 3,5 ton förbjudna"
+    ],
+    "correctIndex": 1,
+    "explanation": "Märke C1 förbjuder all trafik med fordon i den riktning skylten är vänd.",
+    "imageId": "C1"
+  },
+  {
+    "id": "tr-035",
+    "category": "trafikregler",
+    "text": "Hur nära en busshållplats får du parkera?",
+    "options": ["10 meter", "15 meter", "20 meter", "25 meter"],
+    "correctIndex": 2,
+    "explanation": "Du får inte parkera inom 20 meter före och 5 meter efter en busshållplats.",
+    "imageId": null
+  },
+  {
+    "id": "tr-036",
+    "category": "trafikregler",
+    "text": "Vad gäller vid körning förbi en skolskjuts som stannat med blinkande varningsljus?",
+    "options": [
+      "Du ska accelerera förbi snabbt",
+      "Du ska köra förbi i normal hastighet",
+      "Du ska sakta ner kraftigt och vara beredd att stanna – barn kan korsa vägen",
+      "Du behöver inte vidta några åtgärder"
+    ],
+    "correctIndex": 2,
+    "explanation": "Barn kan korsa vägen vid en skolskjuts. Du ska sakta ner kraftigt, vara beredd att stanna och visa särskild hänsyn.",
+    "imageId": null
+  },
+  {
+    "id": "tr-037",
+    "category": "trafikregler",
+    "text": "Vad gäller vid ett järnvägsspår om varningsljuset blinkar rött?",
+    "options": [
+      "Kör sakta över spåret",
+      "Stanna och vänta tills ljuset slutar blinka",
+      "Kör om det inte syns något tåg",
+      "Signal gäller bara tåg – bilar får passera"
+    ],
+    "correctIndex": 1,
+    "explanation": "Blinkande rött ljus vid järnvägskorsning innebär att tåg närmar sig. Du ska stanna och vänta tills ljuset slutat blinka.",
+    "imageId": null
+  },
+  {
+    "id": "tr-038",
+    "category": "trafikregler",
+    "text": "Vad innebär den dubbla heldragna linjen på vägen?",
+    "options": [
+      "Körfältet är bredare",
+      "Du får korsa linjen vid omkörning av långsammare fordon",
+      "Det är absolut förbjudet att korsa eller köra på linjen",
+      "Du ska byta körfält"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dubbla heldragna linjer innebär att det är förbjudet att korsa eller köra på linjerna under alla omständigheter.",
+    "imageId": null
+  },
+  {
+    "id": "tr-039",
+    "category": "trafikregler",
+    "text": "Från vilken ålder får man börja övningsköra bil i Sverige?",
+    "options": ["15 år", "16 år", "17 år", "18 år"],
+    "correctIndex": 1,
+    "explanation": "Man får börja övningsköra personbil från och med 16 års ålder, under förutsättning att man har ett giltigt körkortstillstånd.",
+    "imageId": null
+  },
+  {
+    "id": "tr-040",
+    "category": "trafikregler",
+    "text": "Vad är minsta åldern för att avlägga förarprov för B-körkort?",
+    "options": ["16 år", "17 år", "18 år", "19 år"],
+    "correctIndex": 2,
+    "explanation": "Man måste ha fyllt 18 år för att avlägga förarprov och erhålla B-körkort i Sverige.",
+    "imageId": null
+  },
+  {
+    "id": "tr-041",
+    "category": "trafikregler",
+    "text": "Vad gäller prövotiden för ett nytt körkort?",
+    "options": [
+      "Det finns ingen prövotid",
+      "Prövotiden är 2 år",
+      "Prövotiden är 3 år",
+      "Prövotiden är 5 år"
+    ],
+    "correctIndex": 1,
+    "explanation": "Den som får sitt B-körkort för första gången har en prövotid på 2 år. Om körkortet återkallas under prövotiden måste man göra om alla prov.",
+    "imageId": null
+  },
+  {
+    "id": "tr-042",
+    "category": "trafikregler",
+    "text": "Vad gäller vid omkörning strax före ett övergångsställe?",
+    "options": [
+      "Omkörning är alltid tillåten",
+      "Omkörning är förbjuden strax före och på ett obevakat övergångsställe",
+      "Omkörning tillåts om det inte finns gående",
+      "Det beror på hastigheten"
+    ],
+    "correctIndex": 1,
+    "explanation": "Det är förbjudet att köra om strax före och på ett obevakat övergångsställe eller cykelöverfart.",
+    "imageId": null
+  },
+  {
+    "id": "tr-043",
+    "category": "trafikregler",
+    "text": "Hur långt gäller körkortstillståndet?",
+    "options": [
+      "1 år",
+      "3 år",
+      "5 år",
+      "10 år"
+    ],
+    "correctIndex": 2,
+    "explanation": "Körkortstillståndet gäller i 5 år. Om man inte tagit körkortet inom den tiden måste man ansöka om nytt tillstånd.",
+    "imageId": null
+  },
+  {
+    "id": "tr-044",
+    "category": "trafikregler",
+    "text": "Vad gäller vid lastning av ett tak-räcke?",
+    "options": [
+      "Lasten får skjuta ut hur långt som helst framåt",
+      "Lasten får inte skjuta ut mer än 1 meter bakåt",
+      "Lasten ska vara ordentligt säkrad och inte skjuta ut mer än vad som är tillåtet",
+      "Det finns inga regler för taklast"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lasten ska vara ordentligt fastsatt, inte skjuta ut mer än tillåtet och märkas med flagga eller lykta om den skjuter ut mer än 1 meter bakåt.",
+    "imageId": null
+  },
+  {
+    "id": "tr-045",
+    "category": "trafikregler",
+    "text": "Vad gäller vid körning i mörker utanför tättbebyggt område?",
+    "options": [
+      "Halvljus är obligatoriskt",
+      "Du kan köra utan belysning",
+      "Bara bakljus krävs",
+      "Helljus är obligatoriskt"
+    ],
+    "correctIndex": 0,
+    "explanation": "Under mörker ska du alltid ha minst halvljus på. Du bör använda helljus utanför tättbebyggt område när det inte bländar mötande.",
+    "imageId": null
   }
 ]

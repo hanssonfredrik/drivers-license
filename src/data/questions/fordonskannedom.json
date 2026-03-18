@@ -208,5 +208,420 @@
     "correctIndex": 2,
     "explanation": "Moderna motorer behöver inte lång tomgångsvärming. En kort start då värmning på 30-60 sekunder, sedan köra varsamt med låg motorbelastning tills motorn når arbetstemperatur, är optimalt.",
     "imageId": null
+  },
+  {
+    "id": "fk-016",
+    "category": "fordonskannedom",
+    "text": "Vad innebär TPMS (Tire Pressure Monitoring System)?",
+    "options": [
+      "Ett system som byter däck automatiskt",
+      "Ett system som övervakar lufttrycket i däcken och varnar vid för lågt tryck",
+      "Ett system som mäter vägtemperaturen",
+      "Ett system för att styra chassit"
+    ],
+    "correctIndex": 1,
+    "explanation": "TPMS varnar föraren om lufttrycket i ett eller flera däck sjunker under en kritisk nivå. Det är obligatoriskt i alla nya bilar sedan 2014.",
+    "imageId": null
+  },
+  {
+    "id": "fk-017",
+    "category": "fordonskannedom",
+    "text": "Vad indikerar en varningstriangel med utropstecken på instrumentpanelen?",
+    "options": [
+      "Bränslenivån är låg",
+      "Motortemperaturen är hög",
+      "Ett generellt varningsmeddelande – kontrollera med fordonshandboken",
+      "Bilens GPS fungerar inte"
+    ],
+    "correctIndex": 2,
+    "explanation": "En generell varningstriangel med utropstecken kan betyda flera saker. Kontrollera instrumentpanelens display eller fordonshandboken för mer information.",
+    "imageId": null
+  },
+  {
+    "id": "fk-018",
+    "category": "fordonskannedom",
+    "text": "När ska du byta från sommar- till vinterdäck?",
+    "options": [
+      "1 oktober varje år",
+      "Vinterdäck ska användas 1 december – 31 mars vid vinterväglag",
+      "Bara om det snöar",
+      "Man behöver aldrig byta – allroundsdäck räcker"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lagen kräver vinterdäck från 1 december till 31 mars vid vinterväglag. Rekommendationen är att byta redan i oktober–november.",
+    "imageId": null
+  },
+  {
+    "id": "fk-019",
+    "category": "fordonskannedom",
+    "text": "Vad är turbo i en bilmotor?",
+    "options": [
+      "En extra motor",
+      "En kompressor som använder avgaserna för att pressa in mer luft i motorn och öka effekten",
+      "En typ av avgassystem",
+      "Ett system för att minska buller"
+    ],
+    "correctIndex": 1,
+    "explanation": "En turbo (turboladdare) använder avgasflödet för att driva en kompressor som pressar in mer luft i cylindrarna. Det ökar motorns effekt utan att behöva en större motor.",
+    "imageId": null
+  },
+  {
+    "id": "fk-020",
+    "category": "fordonskannedom",
+    "text": "Vad ska du kontrollera före en längre resa?",
+    "options": [
+      "Bara att det finns bränsle",
+      "Däcktryck, olja, kylvätska, belysning och att vindrutetorkarna fungerar",
+      "Bara att bilen startar",
+      "Bara GPS:en"
+    ],
+    "correctIndex": 1,
+    "explanation": "Före en längre resa bör du kontrollera däcktryck, oljenivå, kylvätska, spolarvätska, belysning, vindrutetorkare samt att bilbälten fungerar.",
+    "imageId": null
+  },
+  {
+    "id": "fk-021",
+    "category": "fordonskannedom",
+    "text": "Vad händer om kylvätskan tar slut?",
+    "options": [
+      "Ingenting – bilen kyler sig själv",
+      "Motorn överhettas och kan få allvarliga skador",
+      "Bilen förbrukar mer bränsle",
+      "AC:n slutar fungera"
+    ],
+    "correctIndex": 1,
+    "explanation": "Om kylvätskan tar slut kan motorn snabbt överhettas, vilket kan leda till allvarliga och kostsamma motorskador. Stanna omedelbart om temperaturlampan lyser.",
+    "imageId": null
+  },
+  {
+    "id": "fk-022",
+    "category": "fordonskannedom",
+    "text": "Vad menas med motorvolym (ccm eller liter)?",
+    "options": [
+      "Volymen på bränsletanken",
+      "Mängden bränsle motorn förbrukar",
+      "Den sammanlagda volymen av motorns cylindrar",
+      "Vikten på motorn"
+    ],
+    "correctIndex": 2,
+    "explanation": "Motorvolymen (slagvolymen) anger den sammanlagda volymen av alla cylindrar. En 2,0-liters motor har exempelvis 2000 ccm total cylindervolym.",
+    "imageId": null
+  },
+  {
+    "id": "fk-023",
+    "category": "fordonskannedom",
+    "text": "Vad gör servostyrning (styrservo)?",
+    "options": [
+      "Gör att bilen kör rakt automatiskt",
+      "Hjälper föraren att styra genom att minska kraftansträngningen vid rattutslag",
+      "Styr bilen åt sidan vid vindpust",
+      "Parkerar bilen automatiskt"
+    ],
+    "correctIndex": 1,
+    "explanation": "Servostyrning använder hydraul- eller elmotor för att underlätta rattutslag. Det gör styrningen lättare, särskilt vid låga hastigheter och parkering.",
+    "imageId": null
+  },
+  {
+    "id": "fk-024",
+    "category": "fordonskannedom",
+    "text": "Vad är skillnaden mellan trumbroms och skivbroms?",
+    "options": [
+      "Trumbromsar är bättre",
+      "Skivbromsar kyls snabbare och ger jämnare bromsverkan – ofta på framhjulen",
+      "Det finns ingen skillnad",
+      "Trumbromsar används bara på motorcyklar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Skivbromsar kyls bättre och ger jämnare bromsverkan, varför de oftast sitter på framhjulen. Trumbromsar kan fortfarande finnas på bakhjulen på enklare bilar.",
+    "imageId": null
+  },
+  {
+    "id": "fk-025",
+    "category": "fordonskannedom",
+    "text": "Vad innebär fyrhjulsdrift (4WD/AWD)?",
+    "options": [
+      "Bilen har fyra rattar",
+      "Alla fyra hjulen får drivkraft från motorn",
+      "Bilen har fyra extra bromsoktar",
+      "Bilen har fyra motorer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fyrhjulsdrift innebär att motorns kraft fördelas till alla fyra hjulen, vilket ger bättre grepp på halt underlag och i terräng.",
+    "imageId": null
+  },
+  {
+    "id": "fk-026",
+    "category": "fordonskannedom",
+    "text": "Vad menas med dubbfria vinterdäck (friktionsdäck)?",
+    "options": [
+      "Vinterdäck utan metalldubb som fungerar genom gummiblandning och mönster",
+      "Sommardäck som fungerar vintertid",
+      "Slitna vinterdäck",
+      "Vinterdäck bara för baksidan"
+    ],
+    "correctIndex": 0,
+    "explanation": "Friktionsdäck har mjuk gummiblandning och speciella mönster (lameller) som gripar i is och snö utan metalldubb. De fungerar bra på is och i kallt väder.",
+    "imageId": null
+  },
+  {
+    "id": "fk-027",
+    "category": "fordonskannedom",
+    "text": "Vad gör bränsleinjektorsystemet?",
+    "options": [
+      "Filtrerar avgaserna",
+      "Sprutar in exakt rätt mängd bränsle i cylindrarna",
+      "Fyller bränsletanken automatiskt",
+      "Kyler motorn"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bränsleinsprutningen (injektorn) sprutar in exakt rätt mängd bränsle i motorns cylindrar. Moderna bilar använder datorstyrd insprutning för optimal förbränning.",
+    "imageId": null
+  },
+  {
+    "id": "fk-028",
+    "category": "fordonskannedom",
+    "text": "Vad gör en partikelfilter (DPF) i en dieselbil?",
+    "options": [
+      "Minskar bränsleförbrukningen",
+      "Fångar sotpartiklar från avgaserna och minskar utsläppen",
+      "Ökar motorns effekt",
+      "Renar luften i kupén"
+    ],
+    "correctIndex": 1,
+    "explanation": "DPF (Diesel Particulate Filter) fångar upp sotpartiklar i avgaserna. Filtret regenereras automatiskt genom upphettning vid längre körningar.",
+    "imageId": null
+  },
+  {
+    "id": "fk-029",
+    "category": "fordonskannedom",
+    "text": "Hur kan du märka att bromsarna behöver bytas?",
+    "options": [
+      "Bilen skramlar",
+      "Längre bromssträcka, gnisslande ljud vid bromsning eller att bilen drar åt en sida",
+      "Fönstren immar sig",
+      "Man kan aldrig märka det"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tecken på slitna bromsar inkluderar gnisslande ljud, längre bromssträcka, att bilen drar åt en sida vid bromsning, eller att bromspedalen känns mjuk.",
+    "imageId": null
+  },
+  {
+    "id": "fk-030",
+    "category": "fordonskannedom",
+    "text": "Vad är skillnaden mellan en hybrid och en laddhybrid (PHEV)?",
+    "options": [
+      "Ingen skillnad",
+      "En laddhybrid kan laddas från elnätet och har större batteri för längre eldrift",
+      "En hybrid har större motor",
+      "En laddhybrid kör bara på bensin"
+    ],
+    "correctIndex": 1,
+    "explanation": "En laddhybrid (PHEV) har ett större batteri som kan laddas via elnätet, vilket möjliggör längre sträckor på enbart el. En vanlig hybrid laddar bara via motorn och bromsenergi.",
+    "imageId": null
+  },
+  {
+    "id": "fk-031",
+    "category": "fordonskannedom",
+    "text": "Vilken minsta mönsterdjupet gäller för vinterdäck?",
+    "options": ["1,6 mm", "3 mm", "4 mm", "5 mm"],
+    "correctIndex": 1,
+    "explanation": "Lagkravet för mönsterdjup på vinterdäck är minst 3 mm. Rekommendationen är att byta däck redan vid 4 mm för bästa vintergrepp.",
+    "imageId": null
+  },
+  {
+    "id": "fk-032",
+    "category": "fordonskannedom",
+    "text": "Vad kontrolleras vid en svensk fordonsbesiktning (bilprovning)?",
+    "options": [
+      "Bara avgasutsläpp",
+      "Bromsar, styrning, belysning, avgaser, chassi och bärande delar",
+      "Bara bilens färg",
+      "Bara däcken"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vid besiktning kontrolleras bromsar, styrning, belysning, avgaser, chassi, bärande delar, identifiering och mer för att säkerställa fordonets trafiksäkerhet.",
+    "imageId": null
+  },
+  {
+    "id": "fk-033",
+    "category": "fordonskannedom",
+    "text": "Vad bör du göra om oljelampan tänds under körning?",
+    "options": [
+      "Fortsätt köra till nästa bensinstation",
+      "Stanna säkert så snart som möjligt och stäng av motorn",
+      "Kontrollera vid nästa service",
+      "Ignorera – den blinkar ibland"
+    ],
+    "correctIndex": 1,
+    "explanation": "Om oljelampan tänds under körning kan oljetrycket vara kritiskt lågt. Stanna omedelbart och stäng av motorn. Att köra vidare kan förstöra motorn.",
+    "imageId": null
+  },
+  {
+    "id": "fk-034",
+    "category": "fordonskannedom",
+    "text": "Vad är syftet med laddtrycksreglering hos turboladdade motorer?",
+    "options": [
+      "Öka bränsleförbrukningen",
+      "Begränsa turboladdtrycket för att skydda motorn",
+      "Minska motorns effekt permanent",
+      "Kontrollera eluttag i bilen"
+    ],
+    "correctIndex": 1,
+    "explanation": "Laddtrycksregleringen (wastegate eller elektronisk styrning) begränsar turboladdtrycket så att motorn inte skadas av för högt tryck.",
+    "imageId": null
+  },
+  {
+    "id": "fk-035",
+    "category": "fordonskannedom",
+    "text": "Vad visar EPC-lampan (Electronic Power Control) på instrumentpanelen?",
+    "options": [
+      "Bilen har fullt batteri",
+      "Ett problem med motorns elektroniska styrning – kör försiktigt till verkstad",
+      "Dörren är öppen",
+      "Bältesvarning"
+    ],
+    "correctIndex": 1,
+    "explanation": "EPC-lampan indikerar ett fel i motorns elektroniska styrning. Du bör köra försiktigt och besöka en verkstad snarast.",
+    "imageId": null
+  },
+  {
+    "id": "fk-036",
+    "category": "fordonskannedom",
+    "text": "Hur påverkas batteriets livslängd av kyla?",
+    "options": [
+      "Kyla förbättrar batteriet",
+      "Kyla har ingen effekt",
+      "Kyla minskar batteriets kapacitet och kan göra att bilen inte startar",
+      "Batteriet laddar snabbare i kyla"
+    ],
+    "correctIndex": 2,
+    "explanation": "Kyla minskar batteriets kapacitet avsevärt. Ett svagt batteri kan helt misslyckas med att starta bilen på vintern. Byt batteri vart 4–5 år.",
+    "imageId": null
+  },
+  {
+    "id": "fk-037",
+    "category": "fordonskannedom",
+    "text": "Vad är en CVT-växellåda?",
+    "options": [
+      "En vanlig manuell växellåda",
+      "En steglös automatväxellåda som kan välja vilken utväxling som helst",
+      "En 4-stegad automat",
+      "En typ av handbroms"
+    ],
+    "correctIndex": 1,
+    "explanation": "CVT (Continuously Variable Transmission) är en steglös automatväxellåda som kan ändra utväxlingen stegfritt för optimal effektivitet.",
+    "imageId": null
+  },
+  {
+    "id": "fk-038",
+    "category": "fordonskannedom",
+    "text": "Vad indikerar en ABS-lampa som lyser under körning?",
+    "options": [
+      "ABS-systemet fungerar normalt",
+      "ABS-systemet är ur funktion – normala bromsar fungerar fortfarande",
+      "Bilen behöver tankas",
+      "Alla bromsar har slutat fungera"
+    ],
+    "correctIndex": 1,
+    "explanation": "Om ABS-lampan lyser under körning innebär det att ABS-systemet inte fungerar. Bromsarna fungerar fortfarande men låser sig vid kraftig inbromsning. Besök verkstad.",
+    "imageId": null
+  },
+  {
+    "id": "fk-039",
+    "category": "fordonskannedom",
+    "text": "Hur ofta bör man kontrollera lufttrycket i däcken?",
+    "options": [
+      "Vid varje tankning eller minst en gång i månaden",
+      "En gång per år",
+      "Bara vid däckbyte",
+      "Aldrig – bilen varnar automatiskt"
+    ],
+    "correctIndex": 0,
+    "explanation": "Lufttrycket bör kontrolleras minst en gång i månaden eller vid varje tankning. Felaktigt lufttryck ökar bränsleförbrukningen, sliter däck ojämnt och försämrar väggreppet.",
+    "imageId": null
+  },
+  {
+    "id": "fk-040",
+    "category": "fordonskannedom",
+    "text": "Vad gör en hastighetsbegränsare (speed limiter) i bilen?",
+    "options": [
+      "Ökar topphastigheten",
+      "Låter föraren ställa in en maxhastighet som bilen inte överskrider",
+      "Bromsar automatiskt vid trafikljus",
+      "Kör bilen självständigt"
+    ],
+    "correctIndex": 1,
+    "explanation": "En hastighetsbegränsare låter föraren ställa in en maxhastighet. Bilen accelererar inte över denna gräns, men föraren kan koppla ur funktionen vid behov.",
+    "imageId": null
+  },
+  {
+    "id": "fk-041",
+    "category": "fordonskannedom",
+    "text": "Vad innebär det om bilen rycker eller vibrerar vid bromsning?",
+    "options": [
+      "Normalt – alla bilar gör det",
+      "Bromsskivor kan vara skeva eller slitna",
+      "Däcken behöver luft",
+      "Motorn behöver olja"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vibrationer vid bromsning kan tyda på skeva bromsskivor, ojämnt slitage eller slitna bromsbelägg. Besök verkstad för kontroll.",
+    "imageId": null
+  },
+  {
+    "id": "fk-042",
+    "category": "fordonskannedom",
+    "text": "Vad är syftet med en katalysator?",
+    "options": [
+      "Öka motorns effekt",
+      "Minska buller",
+      "Omvandla giftiga avgassubstanser till mindre skadliga ämnen",
+      "Filtrera bränslet"
+    ],
+    "correctIndex": 2,
+    "explanation": "Katalysatorn omvandlar giftiga ämnen (kolmonoxid, kväveoxider, kolväten) till mindre skadliga ämnen som koldioxid, vatten och kvävgas.",
+    "imageId": null
+  },
+  {
+    "id": "fk-043",
+    "category": "fordonskannedom",
+    "text": "Varför ska man byta spolarvätska till vinterblandning inför vintern?",
+    "options": [
+      "Det är bara en rekommendation – vatten fungerar lika bra",
+      "Vinterspolarvätskan fryser inte och löser upp smuts, salt och is bättre",
+      "Det doftar bättre",
+      "Sommarblandning skader lacken"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vinterspolarvätskan har lägre fryspunkt och bättre förmåga att lösa upp smuts, salt och is på vindrutan under vinterförhållanden.",
+    "imageId": null
+  },
+  {
+    "id": "fk-044",
+    "category": "fordonskannedom",
+    "text": "Vad gör en adaptiv farthållare (ACC)?",
+    "options": [
+      "Samma som vanlig farthållare",
+      "Anpassar automatiskt hastigheten till framförvarande fordon och håller säkert avstånd",
+      "Stänger av motorn vid stopp",
+      "Byter fil automatiskt"
+    ],
+    "correctIndex": 1,
+    "explanation": "ACC (Adaptive Cruise Control) använder sensorer för att anpassa hastigheten till framförvarande fordon och bibehålla ett säkert avstånd automatiskt.",
+    "imageId": null
+  },
+  {
+    "id": "fk-045",
+    "category": "fordonskannedom",
+    "text": "Vad menas med att en elbil har 'regenerativ bromsning'?",
+    "options": [
+      "Att bromsarna slits mer",
+      "Att elmotorn fungerar som generator vid inbromsning och återvinner energi till batteriet",
+      "Att bilen inte har vanliga bromsar",
+      "Att bilen laddar andra bilar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Regenerativ bromsning innebär att elmotorn vid inbromsning fungerar som generator och omvandlar rörelseenergi till elenergi som lagras i batteriet.",
+    "imageId": null
   }
 ]

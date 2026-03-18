@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <!-- Riksvägsnummer (national road number): white number on red background -->
+  <rect x="2" y="2" width="76" height="76" rx="6" fill="#CC0000"/>
+  <rect x="6" y="6" width="68" height="68" rx="4" fill="#CC0000" stroke="white" stroke-width="2"/>
+  <text x="40" y="48" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">55</text>
+</svg>

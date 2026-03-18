@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50" width="100" height="50">
+  <!-- Supplementary sign: length/distance applies -->
+  <rect x="2" y="2" width="96" height="46" rx="4" fill="white" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="50" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a1a1a" text-anchor="middle" dominant-baseline="middle">500 m</text>
+  <!-- Small arrows on each side -->
+  <line x1="12" y1="30" x2="22" y2="30" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="78" y1="30" x2="88" y2="30" stroke="#1a1a1a" stroke-width="2"/>
+  <polygon points="12,30 18,26 18,34" fill="#1a1a1a"/>
+  <polygon points="88,30 82,26 82,34" fill="#1a1a1a"/>
+</svg>

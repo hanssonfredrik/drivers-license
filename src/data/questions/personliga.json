@@ -203,5 +203,280 @@
     "correctIndex": 1,
     "explanation": "Villkorsbehörighet B (ibland kallat 'nybörjarkörkort') innebär att föraren under de första 2 åren inte får ha 0,2‰ alkohol i blodet (vanliga gränsen) – alkoholgränsen är fortfarande 0‰ i praktiken för nybörjare i många situationer. Nya regler kan ändra exakt hur detta formuleras.",
     "imageId": null
+  },
+  {
+    "id": "pe-016",
+    "category": "personliga",
+    "text": "Hur lång tid tar det för kroppen att bryta ner en standarddrink alkohol?",
+    "options": [
+      "Cirka 30 minuter",
+      "Cirka 1–1,5 timmar",
+      "Cirka 3 timmar",
+      "Det varierar med 12 timmar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kroppen bryter ner cirka 0,1–0,15 promille alkohol per timme. En standarddrink tar ungefär 1–1,5 timmar att bryta ner.",
+    "imageId": null
+  },
+  {
+    "id": "pe-017",
+    "category": "personliga",
+    "text": "Vad är den vanligaste konsekvensen av trötthet vid ratten?",
+    "options": [
+      "Man kör försiktigare",
+      "Man kör av vägen (singelolycka)",
+      "Man kör snabbare",
+      "Ingen konsekvens"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trötthet är en av de vanligaste orsakerna till singelolyckor. Föraren kan somna eller få mikrosömn och köra av vägen.",
+    "imageId": null
+  },
+  {
+    "id": "pe-018",
+    "category": "personliga",
+    "text": "Vilken promillegräns gäller för rattfylleri i Sverige?",
+    "options": ["0,1 ‰", "0,2 ‰", "0,5 ‰", "0,8 ‰"],
+    "correctIndex": 1,
+    "explanation": "I Sverige är promillegränsen 0,2 ‰. Allt över detta klassas som rattfylleri. Vid 1,0 ‰ eller mer klassas det som grovt rattfylleri.",
+    "imageId": null
+  },
+  {
+    "id": "pe-019",
+    "category": "personliga",
+    "text": "Kan läkemedel påverka körförmågan?",
+    "options": [
+      "Nej, bara alkohol påverkar",
+      "Ja – många läkemedel kan orsaka dåsighet, nedsatt koncentration eller yrsel",
+      "Bara ögondroppar",
+      "Nej, om läkaren skrivit ut dem"
+    ],
+    "correctIndex": 1,
+    "explanation": "Många läkemedel kan påverka körförmågan – t.ex. sömnmedel, ångestdämpande, smärtstillande och antihistaminer. Kontrollera alltid varningstexter och fråga din läkare.",
+    "imageId": null
+  },
+  {
+    "id": "pe-020",
+    "category": "personliga",
+    "text": "Vad innebär grupptryck när det gäller bilkörning?",
+    "options": [
+      "Att köra i grupp på motorvägen",
+      "Att man påverkas av andras förväntningar att t.ex. köra fortare eller ta risker",
+      "Att man ändrar radiokanal",
+      "Att samtala med passagerare"
+    ],
+    "correctIndex": 1,
+    "explanation": "Grupptryck innebär att du påverkas av medpassagerare att ta risker – köra fortare, inte använda bälte etc. Det är vanligt bland unga förare.",
+    "imageId": null
+  },
+  {
+    "id": "pe-021",
+    "category": "personliga",
+    "text": "Vad händer med synförmågan vid alkoholpåverkan?",
+    "options": [
+      "Den förbättras",
+      "Mörkerseendet försämras, tunnelseende uppstår och avståndsbedömningen blir sämre",
+      "Inget händer med synen",
+      "Man ser skarpare"
+    ],
+    "correctIndex": 1,
+    "explanation": "Alkohol försämrar mörkerseendet, ger tunnelseende (smalare synfält), försämrar djupseendet och avståndsbedömningen.",
+    "imageId": null
+  },
+  {
+    "id": "pe-022",
+    "category": "personliga",
+    "text": "Vilka signaler tyder på att du behöver ta rast under en lång körning?",
+    "options": [
+      "Du blinkar ofta",
+      "Du gäspar, tappar koncentrationen, kör i vägkanten eller missar skyltar",
+      "Du lyssnar på musik",
+      "Passagerare pratar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vanliga tecken på trötthet: gäspningar, tunga ögonlock, svårt att hålla ögonen öppna, du kör i vägkanten eller missar avfarter/skyltar.",
+    "imageId": null
+  },
+  {
+    "id": "pe-023",
+    "category": "personliga",
+    "text": "Hur påverkar ilska och frustration körningen?",
+    "options": [
+      "De gör dig till en bättre förare",
+      "Du tar större risker, kör aggressivare och får sämre omdöme",
+      "Ilska har ingen påverkan",
+      "Du kör långsammare"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ilska och frustration ökar riskbenägenheten, leder till aggressiv körning och försämrar omdömet. Lugna ned dig innan du kör.",
+    "imageId": null
+  },
+  {
+    "id": "pe-024",
+    "category": "personliga",
+    "text": "Vad ska du göra om du nyligen tagit sömnmedicin och behöver köra?",
+    "options": [
+      "Köra ändå – det går bra",
+      "Inte köra – sömnmedel kan påverka körförmågan i upp till 8–12 timmar",
+      "Dricka starkt kaffe och köra",
+      "Ta dubbel dos för att vara vaken"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sömnmedel kan ha kvarvarande effekter i 8–12 timmar. Kör inte om du tagit sömnmedicin under natten. Effekten kan kvarstå på morgonen.",
+    "imageId": null
+  },
+  {
+    "id": "pe-025",
+    "category": "personliga",
+    "text": "Hur påverkas körförmågan av att ha en konversation på telefon med handsfree?",
+    "options": [
+      "Ingen påverkan alls",
+      "Uppmärksamheten delas och reaktionstiden kan öka med 30–50 %",
+      "Det förbättrar koncentrationen",
+      "Bara hörseln påverkas"
+    ],
+    "correctIndex": 1,
+    "explanation": "Även med handsfree delas din uppmärksamhet mellan samtalet och körningen. Reaktionstiden kan öka med 30–50 % under telefonsamtal.",
+    "imageId": null
+  },
+  {
+    "id": "pe-026",
+    "category": "personliga",
+    "text": "Vad innebär det att köra under påverkan av cannabis?",
+    "options": [
+      "Man kör bättre och mer avslappnat",
+      "Det är lagligt om man har recept",
+      "Reaktionstiden ökar, koncentrationen minskar och det är olagligt",
+      "Cannabis påverkar bara humöret"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cannabis försämrar reaktionstid, koncentration och rumsuppfattning. Drograttfylleri är olagligt oavsett källa. Påverkan kan sitta kvar upp till 24 timmar.",
+    "imageId": null
+  },
+  {
+    "id": "pe-027",
+    "category": "personliga",
+    "text": "Hur kan stress påverka din körning?",
+    "options": [
+      "Stress gör dig mer fokuserad",
+      "Du kan bli otålig, ta större risker och missa trafiksignaler",
+      "Stress har ingen effekt på körningen",
+      "Du kör långsammare"
+    ],
+    "correctIndex": 1,
+    "explanation": "Stress kan leda till otålighet, aggression och bristande uppmärksamhet. Stressade förare tar större risker och har svårare att fokusera på trafiken.",
+    "imageId": null
+  },
+  {
+    "id": "pe-028",
+    "category": "personliga",
+    "text": "Vad gäller om du har epilepsi och vill ta körkort?",
+    "options": [
+      "Du kan aldrig få körkort",
+      "Du måste vara anfallsfri en viss tid och ha läkarintyg",
+      "Epilepsi spelar ingen roll för körkortet",
+      "Du behöver bara en synundersökning"
+    ],
+    "correctIndex": 1,
+    "explanation": "Du kan ta körkort med epilepsi om du varit anfallsfri under en viss period (vanligtvis minst 1 år) och har läkarintyg som styrker att du kan köra säkert.",
+    "imageId": null
+  },
+  {
+    "id": "pe-029",
+    "category": "personliga",
+    "text": "Vilken typ av syn krävs för att få behålla körkort?",
+    "options": [
+      "Perfekt syn utan hjälpmedel",
+      "Minst 0,5 synskärpa (med eller utan hjälpmedel) och tillräckligt synfält",
+      "Bara förmåga att urskilja rött och grönt",
+      "Det finns inga synkrav"
+    ],
+    "correctIndex": 1,
+    "explanation": "För B-körkort krävs minst 0,5 i synskärpa (med eller utan korrigerande linser) och ett tillräckligt synfält. Synproblem ska rapporteras till Transportstyrelsen.",
+    "imageId": null
+  },
+  {
+    "id": "pe-030",
+    "category": "personliga",
+    "text": "Vad är 'confirmation bias' (bekräftelsebias) i trafiken?",
+    "options": [
+      "Att alltid blinka vid sväng",
+      "Att man bara ser det man förväntar sig och missar oväntat – t.ex. en cyklist man inte räknat med",
+      "Att man bekräftar blinkers med handtecken",
+      "Att kontrollera speglar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bekräftelsebias innebär att man ser det man förväntar sig och kan missa oväntade trafikanter, t.ex. en cyklist i en korsning där man bara letar efter bilar.",
+    "imageId": null
+  },
+  {
+    "id": "pe-031",
+    "category": "personliga",
+    "text": "Hur länge efter en hjärtinfarkt bör du vänta med att köra?",
+    "options": [
+      "En vecka",
+      "Minst 4–6 veckor, med läkargodkännande",
+      "Du behöver aldrig vänta",
+      "Ett år"
+    ],
+    "correctIndex": 1,
+    "explanation": "Efter hjärtinfarkt bör du vänta minst 4–6 veckor och ha läkargodkännande innan du kör. Transportstyrelsen kan kräva läkarintyg.",
+    "imageId": null
+  },
+  {
+    "id": "pe-032",
+    "category": "personliga",
+    "text": "Vad bör du göra om du får en plötslig yrselattack under körning?",
+    "options": [
+      "Ignorera det och fortsätt",
+      "Sakta ner försiktigt, blinkar och stannar på en säker plats",
+      "Accelerera för att 'köra bort' känslan",
+      "Blunda en stund"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vid plötslig yrsel ska du sakta ner, signalera och stanna på en säker plats. Kör inte vidare förrän du mår bra eller sökt vård.",
+    "imageId": null
+  },
+  {
+    "id": "pe-033",
+    "category": "personliga",
+    "text": "Vad menas med riskmedvetenhet i körkortsutbildningen?",
+    "options": [
+      "Att undvika all körning",
+      "Att förstå sina egna begränsningar och trafikens risker, och anpassa körningen därefter",
+      "Att köra så sakta som möjligt",
+      "Att aldrig köra i regn"
+    ],
+    "correctIndex": 1,
+    "explanation": "Riskmedvetenhet handlar om att förstå att trafiksituationer innebär risker, känna igen sina begränsningar och anpassa beteendet för att minska olycksrisk.",
+    "imageId": null
+  },
+  {
+    "id": "pe-034",
+    "category": "personliga",
+    "text": "Hur påverkas du av att köra efter en lång arbetsdag?",
+    "options": [
+      "Inte alls – du är van vid att vara vaken",
+      "Mental trötthet kan försämra reaktionstid och omdöme lika mycket som alkohol",
+      "Du kör bättre och mer fokuserat",
+      "Bara fysisk trötthet spelar roll"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mental trötthet efter en lång arbetsdag kan försämra din reaktionsförmåga och ditt omdöme lika mycket som mild alkoholpåverkan.",
+    "imageId": null
+  },
+  {
+    "id": "pe-035",
+    "category": "personliga",
+    "text": "Vad innebär riskutbildningen (del 1) för B-körkort?",
+    "options": [
+      "Praktisk körlektion",
+      "Gruppdiskussion om alkohol, droger, trötthet och grupptryck",
+      "Skriftligt teoriprov",
+      "Övningskörning i mörker"
+    ],
+    "correctIndex": 1,
+    "explanation": "Riskutbildning del 1 är en obligatorisk gruppdiskussion om hur alkohol, droger, trötthet, stress och grupptryck påverkar körningen.",
+    "imageId": null
   }
 ]

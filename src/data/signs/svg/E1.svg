@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" width="120" height="80">
+  <!-- Motorway ends sign: blue rectangle with red strike -->
+  <rect x="2" y="2" width="116" height="76" rx="8" fill="#0055AA"/>
+  <rect x="50" y="12" width="8" height="56" rx="3" fill="white"/>
+  <rect x="62" y="12" width="8" height="56" rx="3" fill="white"/>
+  <path d="M20,60 Q35,60 50,40" fill="none" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <path d="M100,60 Q85,60 70,40" fill="none" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <!-- Red diagonal strike -->
+  <line x1="15" y1="68" x2="105" y2="12" stroke="#E30000" stroke-width="6" stroke-linecap="round"/>
+</svg>
