@@ -112,7 +112,7 @@
     "text": "Hur länge efter en person slutat dricka alkohol kan det ta innan blodalkoholen sjunkit under 0,2‰?",
     "options": [
       "1 timme per enhet",
-      "Det varierar, men ungefär 1 ‰ per timme bryts ned",
+      "Det varierar, men ungefär 0,1–0,15 ‰ per timme bryts ned",
       "Snabbt om man dricker vatten",
       "10 minuter per enhet"
     ],
@@ -193,15 +193,15 @@
   {
     "id": "pe-015",
     "category": "personliga",
-    "text": "Vad innebär 'nybörjarkörskörkort' (villkorsbehörighet B)?",
+    "text": "Vad kan hända om du begår ett allvarligt trafikbrott under prövotiden?",
     "options": [
-      "En extra kurs man kan ta frivilligt",
-      "En form av körkort för yngre med extra restriktioner",
-      "Körkortet är inte giltigt utomlands",
-      "Det gäller bara för att köra moped"
+      "Du får bara böter",
+      "Körkortet kan återkallas och du måste göra om alla prov",
+      "Du får en varning utan konsekvenser",
+      "Inget speciellt händer under prövotiden"
     ],
     "correctIndex": 1,
-    "explanation": "Villkorsbehörighet B (ibland kallat 'nybörjarkörkort') innebär att föraren under de första 2 åren inte får ha 0,2‰ alkohol i blodet (vanliga gränsen) – alkoholgränsen är fortfarande 0‰ i praktiken för nybörjare i många situationer. Nya regler kan ändra exakt hur detta formuleras.",
+    "explanation": "Under de första 2 åren med nytt körkort (prövotiden) innebär allvarliga trafikbrott att körkortet återkallas. Du måste då göra om både kunskapsprov och körprov för att få tillbaka körkortet.",
     "imageId": null
   },
   {
@@ -235,24 +235,29 @@
   {
     "id": "pe-018",
     "category": "personliga",
-    "text": "Vilken promillegräns gäller för rattfylleri i Sverige?",
-    "options": ["0,1 ‰", "0,2 ‰", "0,5 ‰", "0,8 ‰"],
+    "text": "Vad är alkolås och när kan det bli aktuellt?",
+    "options": [
+      "En GPS-spårare monterad i bilen efter trafikbrott",
+      "En anordning kopplad till startsystemet som kräver godkänt utandningsprov för att starta bilen",
+      "En mekanisk låsenhet som bara tillåter körning dagtid",
+      "Ett larm som aktiveras om du kör för fort"
+    ],
     "correctIndex": 1,
-    "explanation": "I Sverige är promillegränsen 0,2 ‰. Allt över detta klassas som rattfylleri. Vid 1,0 ‰ eller mer klassas det som grovt rattfylleri.",
+    "explanation": "Alkolås är en anordning kopplad till bilens startsystem. Föraren måste blåsa i instrumentet och ha en alkoholhalt under gränsvärdet för att bilen ska starta. Alkolås kan bli villkor för att behålla körkortet efter rattfylleri.",
     "imageId": null
   },
   {
     "id": "pe-019",
     "category": "personliga",
-    "text": "Kan läkemedel påverka körförmågan?",
+    "text": "Hur kan diabetes påverka körförmågan?",
     "options": [
-      "Nej, bara alkohol påverkar",
-      "Ja – många läkemedel kan orsaka dåsighet, nedsatt koncentration eller yrsel",
-      "Bara ögondroppar",
-      "Nej, om läkaren skrivit ut dem"
+      "Diabetes påverkar aldrig körförmågan",
+      "Bara typ 1-diabetes påverkar körningen",
+      "För högt eller för lågt blodsocker kan orsaka medvetslöshet, yrsel och nedsatt omdöme",
+      "Man får aldrig köra bil med diabetes"
     ],
-    "correctIndex": 1,
-    "explanation": "Många läkemedel kan påverka körförmågan – t.ex. sömnmedel, ångestdämpande, smärtstillande och antihistaminer. Kontrollera alltid varningstexter och fråga din läkare.",
+    "correctIndex": 2,
+    "explanation": "Diabetes kan orsaka att blodsockret blir för lågt (hypoglykemi) med symtom som yrsel, förvirring och i värsta fall medvetslöshet. Insulinbehandlade diabetiker ska anmäla detta till Transportstyrelsen och kan behöva läkarintyg.",
     "imageId": null
   },
   {

@@ -207,15 +207,15 @@
   {
     "id": "ts-016",
     "category": "trafiksakerhet",
-    "text": "Vad händer med stoppsträckan om hastigheten fördubblas?",
+    "text": "Vad består stoppsträckan av?",
     "options": [
-      "Stoppsträckan fördubblas",
-      "Stoppsträckan tredubblas",
-      "Stoppsträckan fyrdubblas",
-      "Stoppsträckan ökas med 50 %"
+      "Enbart bromssträckan",
+      "Reaktionssträckan plus bromssträckan",
+      "Enbart reaktionssträckan",
+      "Siktsträckan plus bromssträckan"
     ],
-    "correctIndex": 2,
-    "explanation": "Bromssträckan ökar med kvadraten på hastigheten. Om hastigheten fördubblas blir bromssträckan fyra gånger längre.",
+    "correctIndex": 1,
+    "explanation": "Stoppsträckan = reaktionssträcka + bromssträcka. Reaktionssträckan fördubblas vid fördubblad hastighet. Bromssträckan fyrdubblas vid fördubblad hastighet (kvadratiskt samband). Därför ökar stoppsträckan kraftigt med ökad hastighet.",
     "imageId": null
   },
   {
@@ -305,15 +305,15 @@
   {
     "id": "ts-023",
     "category": "trafiksakerhet",
-    "text": "Vad innebär Nollvisionen (Vision Zero)?",
+    "text": "Vad innebär 2+1-vägar (mitträckesvägar) för trafiksäkerheten?",
     "options": [
-      "Att inga bilar ska finnas i stadskärnor",
-      "Att vi siktar på noll dödade och svårt skadade i trafiken",
-      "Att alla hastigheter sänks till noll",
-      "Att noll bensinbilar ska tillåtas 2030"
+      "De ger ingen förbättring av trafiksäkerheten",
+      "De minskar risken för frontalkollisioner genom att separera mötande trafik med mitträcke",
+      "De tillåter högre hastigheter",
+      "De är bara avsedda för tung trafik"
     ],
     "correctIndex": 1,
-    "explanation": "Nollvisionen är Sveriges trafikpolitiska mål – att ingen ska dödas eller skadas svårt i trafiken. Systemet ska utformas för att tolerera mänskliga misstag.",
+    "explanation": "2+1-vägar har ett mitträcke (vajer eller betong) som separerar mötande trafik. Körfälten växlar mellan ett och två fält i varje riktning. De minskar dödsolyckorna med upp till 80 % jämfört med vanliga tvåfältsvägar.",
     "imageId": null
   },
   {
@@ -375,15 +375,15 @@
   {
     "id": "ts-028",
     "category": "trafiksakerhet",
-    "text": "Vad innebär begreppet 'döda vinkeln'?",
+    "text": "Vad bör du göra om det börjar brinna i en tunnel?",
     "options": [
-      "Det farligaste hörnet i en korsning",
-      "Det område runt fordonet som föraren inte kan se i backspeglarna",
-      "En kurva med skymd sikt",
-      "En terräng där GPS inte fungerar"
+      "Stanna kvar i bilen och vänta på hjälp",
+      "Kör ut ur tunneln om möjligt – annars stanna, stäng av motorn, lämna nyckeln kvar och utrym via nödutgång",
+      "Backa ut ur tunneln",
+      "Öppna fönstren för att ventilera ut röken"
     ],
     "correctIndex": 1,
-    "explanation": "Döda vinkeln är det område bredvid och snett bakom bilen som inte syns i backspeglarna. Du måste vända på huvudet (axelkoll) för att kontrollera den.",
+    "explanation": "Vid brand i tunnel: kör ut om möjligt. Annars stanna, stäng av motorn, lämna nyckeln kvar (så räddningstjänsten kan flytta bilen), ta med passagerare och utrym via närmaste nödutgång. Håll dig lågt – röken stiger uppåt.",
     "imageId": null
   },
   {
@@ -543,15 +543,15 @@
   {
     "id": "ts-040",
     "category": "trafiksakerhet",
-    "text": "Vad innebär defensiv körning?",
+    "text": "Vad innebär understyring?",
     "options": [
-      "Att köra så långsamt som möjligt",
-      "Att förutse risker, anpassa hastigheten och lämna utrymme åt andra trafikanter",
-      "Att aldrig köra om",
-      "Att undvika motorvägar"
+      "Bilen svänger mer än föraren vill",
+      "Bilen svänger mindre än föraren vill – framhjulen tappar greppet och bilen fortsätter rakt fram",
+      "Bilen bromsas automatiskt av ABS",
+      "Ratten låser sig vid hög hastighet"
     ],
     "correctIndex": 1,
-    "explanation": "Defensiv körning innebär att du förutser risker, har god marginal, anpassar hastigheten och visar hänsyn mot andra trafikanter.",
+    "explanation": "Understyring uppstår när framhjulen tappar greppet, ofta vid för hög fart i kurva. Bilen svänger mindre än föraren styr och tenderar att fortsätta rakt fram. Åtgärd: lyft gasen, styr inte mer – vänta tills greppet återfås.",
     "imageId": null
   },
   {

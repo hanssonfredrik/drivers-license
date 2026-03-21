@@ -202,15 +202,15 @@
   {
     "id": "mi-016",
     "category": "miljo",
-    "text": "Vad är en miljözon i en stad?",
+    "text": "Vad är skillnaden mellan E5 och E10 bensin?",
     "options": [
-      "En zon där bara elbilar får köra",
-      "Ett område där fordon med höga utsläpp inte får köra eller begränsas",
-      "En parkeringszon",
-      "En zon med gratis laddning"
+      "Det finns ingen skillnad",
+      "E10 innehåller upp till 10 % etanol och E5 upp till 5 % – E10 ger lägre fossila CO2-utsläpp",
+      "E10 är helt fossilfri",
+      "E5 innehåller mer etanol än E10"
     ],
     "correctIndex": 1,
-    "explanation": "I miljözoner begränsas eller förbjuds trafik med fordon som inte uppfyller vissa utsläppskrav. Sverige har miljözoner i klass 1, 2 och 3.",
+    "explanation": "E10-bensin innehåller upp till 10 % etanol jämfört med E5 som har max 5 %. Högre etanolinblandning minskar fossila koldioxidutsläpp. De flesta bilar från 2000-talet klarar E10, men kontrollera i din fordonshandbok.",
     "imageId": null
   },
   {
@@ -428,13 +428,13 @@
     "category": "miljo",
     "text": "Vilket euroklassificering krävs minst för att köra i miljözon 2 i Sverige?",
     "options": [
-      "Euro 3",
-      "Euro 4",
-      "Euro 5",
-      "Euro 6"
+      "Euro 4 för alla fordon",
+      "Euro 5 för alla fordon",
+      "Euro 5 för bensinbilar och Euro 6 för dieselbilar",
+      "Euro 6 för alla fordon"
     ],
     "correctIndex": 2,
-    "explanation": "Miljözon 2 i Sverige kräver minst Euro 5 för dieselfordon. Krav kan variera beroende på fordontyp och kommun.",
+    "explanation": "Miljözon 2 kräver minst Euro 5 för bensinbilar (gnisttänd motor) och Euro 6 för dieselbilar (kompressionständ motor). Elbilar och vätgasbilar är undantagna. Reglerna finns i trafikförordningen 4 kap. 22b §.",
     "imageId": null
   },
   {
