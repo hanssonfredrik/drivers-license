@@ -6,6 +6,7 @@ import { Explanation } from '@/components/question/Explanation';
 import { ProgressBar } from '@/components/common/ProgressBar';
 import { Button } from '@/components/common/Button';
 import { Card } from '@/components/common/Card';
+import { NavigationGuard } from '@/components/common/NavigationGuard';
 import { CATEGORY_LABELS } from '@/types/question';
 import type { CategoryId } from '@/types/question';
 
@@ -104,6 +105,12 @@ export default function StudyPage() {
 
   return (
     <div className="max-w-xl mx-auto px-4 py-6">
+      <NavigationGuard
+        when={state.phase === 'answering' || state.phase === 'answered'}
+        title="Avsluta instudering?"
+        message="Om du lämnar sidan avslutas din instudering. Dina framsteg sparas inte."
+      />
+
       <div className="flex items-center justify-between mb-4">
         <Link to="/study" className="text-sm text-brand-400 hover:text-brand-300 transition-colors">
           ← Ämnen

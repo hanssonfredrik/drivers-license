@@ -6,6 +6,7 @@ import { QuizProgress } from '@/components/quiz/QuizProgress';
 import { Timer } from '@/components/common/Timer';
 import { Button } from '@/components/common/Button';
 import { Card } from '@/components/common/Card';
+import { NavigationGuard } from '@/components/common/NavigationGuard';
 
 export default function QuizPage() {
   const { state, answer, submit, navigateTo } = useQuizSession();
@@ -128,6 +129,13 @@ export default function QuizPage() {
           </Button>
         )}
       </div>
+
+      {/* Navigation guard */}
+      <NavigationGuard
+        when={state.phase === 'active' && !showConfirmQuit}
+        title="Avsluta quiz?"
+        message="Om du lämnar sidan avslutas ditt quiz. Dina svar sparas inte."
+      />
 
       {/* Confirm quit dialog */}
       {showConfirmQuit && (
